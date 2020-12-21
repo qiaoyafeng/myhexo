@@ -8,7 +8,7 @@ subtitle: 'qiao yafeng web'
 description: ''
 keywords:
 author: Qiao Yafeng
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
