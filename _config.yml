@@ -45,14 +45,14 @@ post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -104,3 +104,32 @@ theme: matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+  
+# hexo-generator-search  
+search:
+  path: search.xml
+  field: post  
+
+# hexo-permalink-pinyin
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
+# hexo-filter-github-emojis  
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:  
+
+# hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date  
