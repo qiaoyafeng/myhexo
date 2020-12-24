@@ -1,0 +1,3 @@
+[submodule "themes/matery"]
+	path = themes/matery
+	url = https://github.com/qiaoyafeng/hexo-theme-matery.git
