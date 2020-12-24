@@ -19,10 +19,11 @@
 
 ##  我设置的主题
 
-目前我选了两个比较适合做博客网站的主题，里面是github地址。
+目前我选了几个比较适合做博客网站的主题，下面是已经fork到我github的地址。
 
-[hexo-theme-matery](https://github.com/blinkfox/hexo-theme-matery)
+[hexo-theme-matery](https://github.com/qiaoyafeng/hexo-theme-matery)
 
-[hexo-theme-material](https://github.com/viosey/hexo-theme-material)
+[hexo-theme-material](https://github.com/qiaoyafeng/hexo-theme-material)
 
+[hexo-theme-hiker](https://github.com/qiaoyafeng/hexo-theme-hiker)
 
