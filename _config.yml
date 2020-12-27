@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Qiao Yafeng
-subtitle: 'qiao yafeng web'
-description: ''
-keywords:
-author: Qiao Yafeng
+title: 亚峰
+subtitle: '亚峰'
+description: '乔亚峰的个人学习博客网站。'
+keywords: 'qiaoyafeng，乔亚峰，yafeng，亚峰，博客'
+author: 乔亚峰
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
