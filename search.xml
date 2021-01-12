@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Python之禅</title>
+      <link href="/myhexo/2021/01/12/xue-xi/python/python-zhi-shan/"/>
+      <url>/myhexo/2021/01/12/xue-xi/python/python-zhi-shan/</url>
+      
+        <content type="html"><![CDATA[<p>又名 <a href="https://www.python.org/dev/peps/pep-0020"><strong>PEP 20</strong></a>, Python设计的指导原则。</p><pre class="line-numbers language-none"><code class="language-none">&gt;&gt;&gt; import thisThe Zen of Python, by Tim PetersBeautiful is better than ugly.Explicit is better than implicit.Simple is better than complex.Complex is better than complicated.Flat is better than nested.Sparse is better than dense.Readability counts.Special cases aren't special enough to break the rules.Although practicality beats purity.Errors should never pass silently.Unless explicitly silenced.In the face of ambiguity, refuse the temptation to guess.There should be one-- and preferably only one --obvious way to do it.Although that way may not be obvious at first unless you're Dutch.Now is better than never.Although never is often better than *right* now.If the implementation is hard to explain, it's a bad idea.If the implementation is easy to explain, it may be a good idea.Namespaces are one honking great idea -- let's do more of those!Python之禅 by Tim Peters优美胜于丑陋（Python以编写优美的代码为目标）明了胜于晦涩（优美的代码应当是明了的，命名规范，风格相似）简洁胜于复杂（优美的代码应当是简洁的，不要有复杂的内部实现）复杂胜于凌乱（如果复杂不可避免，那代码间也不能有难懂的关系，要保持接口简洁）扁平胜于嵌套（优美的代码应当是扁平的，不能有太多的嵌套）间隔胜于紧凑（优美的代码有适当的间隔，不要奢望一行代码解决问题）可读性很重要（优美的代码是可读的）即便假借特例的实用性之名，也不可违背这些规则（这些规则至高无上）不要包容所有错误，除非您确定需要这样做（精准地捕获异常，不写 except:pass 风格的代码）当存在多种可能，不要尝试去猜测而是尽量找一种，最好是唯一一种明显的解决方案（如果不确定，就用穷举法）虽然这并不容易，因为您不是 Python 之父（这里的 Dutch 是指 Guido ）做也许好过不做，但不假思索就动手还不如不做（动手之前要细思量）如果您无法向人描述您的方案，那肯定不是一个好方案；反之亦然（方案测评标准）命名空间是一种绝妙的理念，我们应当多加利用（倡导与号召）<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在这个世界相遇</title>
       <link href="/myhexo/2020/12/25/sheng-huo/yi-gong/nian-hui/bei-jing-yi-gong-lian-2019-nian-nian-hui-zhao-pian-tie/"/>
       <url>/myhexo/2020/12/25/sheng-huo/yi-gong/nian-hui/bei-jing-yi-gong-lian-2019-nian-nian-hui-zhao-pian-tie/</url>
@@ -11,6 +38,22 @@
         <content type="html"><![CDATA[<p>在这个世界相遇</p><p>北京义工联2019年年会照片贴</p><p><img src="http://www.bjygl.org/forum.php?mod=attachment&amp;aid=ODc5MDF8MjJjMThkODl8MTYwODgyNTYzN3w0Nzk4NXwyNzA4Nw==&amp;noupdate=yes" alt="img"></p>]]></content>
       
       
+      <categories>
+          
+          <category> 义工 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 北京义工联 </tag>
+            
+            <tag> 活动总结 </tag>
+            
+            <tag> 年会 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -26,7 +69,7 @@
       
       <categories>
           
-          <category> Markdown </category>
+          <category> 义工 </category>
           
       </categories>
       
@@ -36,6 +79,8 @@
             <tag> 北京义工联 </tag>
             
             <tag> 心路 </tag>
+            
+            <tag> 活动总结 </tag>
             
         </tags>
       
@@ -53,16 +98,20 @@
       
       <categories>
           
-          <category> Markdown </category>
+          <category> 义工 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Typora </tag>
+            <tag> 北京义工联 </tag>
             
-            <tag> Markdown </tag>
+            <tag> 活动总结 </tag>
+            
+            <tag> 走访 </tag>
+            
+            <tag> 助学 </tag>
             
         </tags>
       
@@ -80,16 +129,43 @@
       
       <categories>
           
-          <category> Markdown </category>
+          <category> 义工 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Typora </tag>
+            <tag> 北京义工联 </tag>
             
-            <tag> Markdown </tag>
+            <tag> 活动总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文档</title>
+      <link href="/myhexo/2020/12/24/xue-xi/hexo/index/"/>
+      <url>/myhexo/2020/12/24/xue-xi/hexo/index/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎使用 Hexo，本文档将帮助您快速上手。如果您在使用过程中遇到问题，请查看 <a href="troubleshooting.html">问题解答</a> 中的解答，或者在 <a href="https://github.com/hexojs/hexo/issues">GitHub</a>、<a href="https://groups.google.com/group/hexo">Google Group</a> 上提问。</p><h2 id="什么是-Hexo？"><a href="#什么是-Hexo？" class="headerlink" title="什么是 Hexo？"></a>什么是 Hexo？</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>安装 Hexo 只需几分钟时间，若您在安装过程中遇到问题或无法找到解决方式，请<a href="https://github.com/hexojs/hexo/issues">提交问题</a>，我们会尽力解决您的问题。</p><h3 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h3><p>安装 Hexo 相当简单，只需要先安装下列应用程序即可：</p><ul><li><a href="http://nodejs.org/">Node.js</a> (Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本)</li><li><a href="http://git-scm.com/">Git</a></li></ul><p>如果您的电脑中已经安装上述必备程序，那么恭喜您！你可以直接前往 <a href="#%E5%AE%89%E8%A3%85-Hexo">安装 Hexo</a> 步骤。</p><p>如果您的电脑中尚未安装所需要的程序，请根据以下安装指示完成安装。</p><h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h3><ul><li>Windows：下载并安装 <a href="https://git-scm.com/download/win">git</a>.</li><li>Mac：使用 <a href="http://mxcl.github.com/homebrew/">Homebrew</a>, <a href="http://www.macports.org/">MacPorts</a> 或者下载 <a href="http://sourceforge.net/projects/git-osx-installer/">安装程序</a>。</li><li>Linux (Ubuntu, Debian)：<code>sudo apt-get install git-core</code></li><li>Linux (Fedora, Red Hat, CentOS)：<code>sudo yum install git-core</code></li></ul><p>Mac 用户<br>如果在编译时可能会遇到问题，请先到 App Store 安装 Xcode，Xcode 完成后，启动并进入 <strong>Preferences -&gt; Download -&gt; Command Line Tools -&gt; Install</strong> 安装命令行工具。</p><p>Windows 用户<br>对于中国大陆地区用户，可以前往 <a href="https://npm.taobao.org/mirrors/git-for-windows/">淘宝 Git for Windows 镜像</a> 下载 git 安装包。</p><h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><p>Node.js 为大多数平台提供了官方的 <a href="https://nodejs.org/en/download/">安装程序</a>。对于中国大陆地区用户，可以前往 <a href="https://npm.taobao.org/mirrors/node">淘宝 Node.js 镜像</a> 下载。</p><p>其它的安装方法：</p><ul><li>Windows：通过 <a href="https://github.com/jasongin/nvs/">nvs</a>（推荐）或者<a href="https://github.com/nvm-sh/nvm">nvm</a> 安装。</li><li>Mac：使用 <a href="https://brew.sh/">Homebrew</a> 或 <a href="http://www.macports.org/">MacPorts</a> 安装。</li><li>Linux（DEB/RPM-based）：从 <a href="https://github.com/nodesource/distributions">NodeSource</a> 安装。</li><li>其它：使用相应的软件包管理器进行安装，可以参考由 Node.js 提供的 <a href="https://nodejs.org/en/download/package-manager/">指导</a></li></ul><p>对于 Mac 和 Linux 同样建议使用 nvs 或者 nvm，以避免可能会出现的权限问题。</p><p>Windows 用户<br>使用 Node.js 官方安装程序时，请确保勾选 <strong>Add to PATH</strong> 选项（默认已勾选）</p><p>Mac / Linux 用户<br>如果在尝试安装 Hexo 的过程中出现 <code>EACCES</code> 权限错误，请遵循 <a href="https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally">由 npmjs 发布的指导</a> 修复该问题。强烈建议 <strong>不要</strong> 使用 root、sudo 等方法覆盖权限</p><h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><p>所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">npm</span> <span class="token function">install</span> -g hexo-cli<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="进阶安装和使用"><a href="#进阶安装和使用" class="headerlink" title="进阶安装和使用"></a>进阶安装和使用</h3><p>对于熟悉 npm 的进阶用户，可以仅局部安装 <code>hexo</code> 包。</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">npm</span> <span class="token function">install</span> hexo<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>安装以后，可以使用以下两种方式执行 Hexo：</p><ol><li><p><code>npx hexo &lt;command&gt;</code></p></li><li><p>将 Hexo 所在的目录下的 <code>node_modules</code> 添加到环境变量之中即可直接使用 <code>hexo &lt;command&gt;</code>：</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">echo</span> <span class="token string">'PATH="<span class="token environment constant">$PATH</span>:./node_modules/.bin"'</span> <span class="token operator">&gt;&gt;</span> ~/.profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="Node-js-版本限制"><a href="#Node-js-版本限制" class="headerlink" title="Node.js 版本限制"></a>Node.js 版本限制</h3></li></ol><p>我们强烈建议永远安装最新版本的 Hexo，以及 <a href="#%E5%AE%89%E8%A3%85%E5%89%8D%E6%8F%90">推荐的 Node.js 版本</a>。</p><table><thead><tr><th>Hexo 版本</th><th>最低兼容 Node.js 版本</th></tr></thead><tbody><tr><td>5.0+</td><td>10.13.0</td></tr><tr><td>4.1 - 4.2</td><td>8.10</td></tr><tr><td>4.0</td><td>8.6</td></tr><tr><td>3.3 - 3.9</td><td>6.9</td></tr><tr><td>3.2 - 3.3</td><td>0.12</td></tr><tr><td>3.0 - 3.1</td><td>0.10 or iojs</td></tr><tr><td>0.0.1 - 2.8</td><td>0.10</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 博客 </tag>
             
         </tags>
       
@@ -105,6 +181,22 @@
         <content type="html"><![CDATA[<p>我们的时光，义工的过往</p><p>头顶的太阳<br>燃烧着青春的余热<br>大海的波浪<br>翻滚着我们的向往<br>我们的时光<br>是无忧的时光<br>—–赵雷</p><p>​    五四青年节B站推出的《后浪》短视频在朋友圈刷屏，看完了何冰极富感染力的演讲才发现原来浪也分前后，以前只觉得一个人浪就是浪，不分前后左右。 其中说到的年轻人凭着相同的爱好就能结交千万个值得干杯的朋友，对于我来说多少也有点感触，在这个偌大的城市可以释怀干杯的朋友很多就是在北京义工联里相识的，但我们属不属于视频中所说的后浪我也不敢确定，毕竟每个人浪的程度和时期都不一样。联里的义工们年龄差距比较大，应该是前浪后浪都有，也有中间浪。这些浪是怎么成千上万在一起的？视频中也给了答案，因为热爱，因为善良，因为心里有火，眼里有光。君子美美与共，和而不同。</p><p>​    做一名义工对社会的影响有多大？总觉得年轻人在社会上，应该有一分热，发一分光。和尔盖茨和扎克伯格这样有影响力的大人物做慈善相比，我们每一个人的光和热都是很有限的，但这些就足以影响身边的人，影响你我自己的人生经历。放手去拥抱这个世界，热爱身边的人，热爱生活，不负青春！</p><p>​    马克吐温说:“善良,是一种世界通用的语言。” 与人为善,就是为自己积攒福气和运气…，<br>世界上所有的惊喜和好运，都是你积累的人品和善良。有善意之举的人，看似笨拙的付出了时间和精力，但其实是一种惊喜和好运的积累。善待整个世界，整个世界也会善待着你。你所有选择的善良里面，都会藏着你未来的道路上的惊喜和运气。</p><p>​    在义工联里活动的时候总是能看到身边人脸上带着笑，时间一长就发现原来笑是可以传递的，初加入的新义工看到这样的笑会觉得这里有暖，有爱，热情活力。老义工看到这样的笑会更加坚定自己当初所做行动和付出。这就是微笑的力量，给自己一个微笑，让生活多一份热爱。微笑可以化解陌生，也可以递增情义，可以向前浪致敬，也可以和后浪干杯。</p><p>给我一个微笑就够了<br>如薄酒一杯，像柔风一缕<br>这就是一篇最动人的宣言呵<br>仿佛春天　温馨又飘逸<br>—–汪国真</p>]]></content>
       
       
+      <categories>
+          
+          <category> 义工 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 北京义工联 </tag>
+            
+            <tag> 心路 </tag>
+            
+            <tag> 活动总结 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -120,16 +212,16 @@
       
       <categories>
           
-          <category> Markdown </category>
+          <category> 义工 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Typora </tag>
+            <tag> 北京义工联 </tag>
             
-            <tag> Markdown </tag>
+            <tag> 活动总结 </tag>
             
         </tags>
       
@@ -145,6 +237,20 @@
         <content type="html"><![CDATA[<p>2020/12/24/sheng-huo/yi-gong/huo-dong-zong-jie/2020-nian-9-yue-19-ri-fang-shan/0.jpg</p><p>你只管善良，美好正在路上</p><p>老义工： 丽、金蟾格格、戏浪小生、上校、蛋清、幻龙、小鱼儿、冬雪儿、E3、天堂燕蝶、李畅、弘毅正兴<br>摄影：小鱼儿<br>带队：弘毅正兴</p><p>​    首先这么优雅的标题肯定不是带队写的，也不是摄影写的，那是谁写的呢？还是大家猜一下吧。</p><p>每周的活动内容都差不多，但每周都有不一样的新鲜感，新鲜感或许是来自好久不见得义工，也或许是因为新接触了一个很好玩的小朋友，也可能是到厨房帮厨的时候了解到了一种菜的新做法，还可能是听到了一些义工们的新八卦段子。反正每次都觉得义工活动像是和老朋友见面，既是一份挂念，又是一次畅聊。</p><p>​    义工分了两部分，一部分在楼上陪孩子一起拼积木，另一部分在楼下的厨房里大展厨艺。这次的男义工比较多，和女义工人数相当。男同学扎堆都跑到了厨房里，有些可能是担心陪不了孩子吧。不过活动后出锅的鱼确实做得不错，馋坏了其他的其他的义工们，只恨没能到厨房里品味一下。</p><p>​    陪孩子们的义工这次拼积木不知效果怎么样，孩子们的世界总是会给成人很多启发，各个小孩都有自己的性格，也能让我们想起自己的小时候。陪孩子多一些耐心，试着去体会和了解他们的想法，这样就能更好地与孩子们一起玩，一起成长。</p><p>​    这次的摄影师是小鱼儿，另外还有三姐做幕后指导，两两配合，把这次的照片拍得很美，抓拍到很多美好瞬间。</p><p>​    最后，大家猜到这次的题目出自谁手了吗？可以翻翻当天活动义工的朋友圈。我给大家四个字的提示“温婉恬静”。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 义工 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 北京义工联 </tag>
+            
+            <tag> 活动总结 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -160,16 +266,16 @@
       
       <categories>
           
-          <category> Markdown </category>
+          <category> 义工 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Typora </tag>
+            <tag> 北京义工联 </tag>
             
-            <tag> Markdown </tag>
+            <tag> 活动总结 </tag>
             
         </tags>
       
@@ -178,13 +284,54 @@
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="/myhexo/2020/12/14/hello-world/"/>
-      <url>/myhexo/2020/12/14/hello-world/</url>
+      <title>常用 Git 命令清单</title>
+      <link href="/myhexo/2020/10/26/xue-xi/git/chang-yong-git-ming-ling-qing-dan/"/>
+      <url>/myhexo/2020/10/26/xue-xi/git/chang-yong-git-ming-ling-qing-dan/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="Git-命令清单。几个专用名词的译名如下。"><a href="#Git-命令清单。几个专用名词的译名如下。" class="headerlink" title="Git 命令清单。几个专用名词的译名如下。"></a>Git 命令清单。几个专用名词的译名如下。</h2><ul><li><p>Workspace：工作区 Index </p></li><li><p>Stage：暂存区 </p></li><li><p>Repository：仓库区（或本地仓库） </p></li><li><p>Remote：远程仓库</p><a id="more"></a></li></ul><h2 id="一、新建代码库"><a href="#一、新建代码库" class="headerlink" title="一、新建代码库"></a>一、新建代码库</h2><pre class="line-numbers language-sh" data-language="sh"><code class="language-sh"> 在当前目录新建一个Git代码库$ git init 新建一个目录，将其初始化为Git代码库$ git init [project-name] 下载一个项目和它的整个代码历史$ git clone [url]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="二、配置"><a href="#二、配置" class="headerlink" title="二、配置"></a>二、配置</h2><blockquote><p>Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置），也可以在项目目录下（项目配置）</p></blockquote><pre class="line-numbers language-sh" data-language="sh"><code class="language-sh"> 显示当前的Git配置$ git config --list 编辑Git配置文件$ git config -e [--global] 设置提交代码时的用户信息$ git config [--global] user.name "[name]"$ git config [--global] user.email "[email address]"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="三、增加-删除文件"><a href="#三、增加-删除文件" class="headerlink" title="三、增加/删除文件"></a>三、增加/删除文件</h2><pre class="line-numbers language-sh" data-language="sh"><code class="language-sh"> 添加指定文件到暂存区$ git add [file1] [file2] ... 添加指定目录到暂存区，包括子目录$ git add [dir] 添加当前目录的所有文件到暂存区$ git add . 添加每个变化前，都会要求确认 对于同一个文件的多处变化，可以实现分次提交$ git add -p 删除工作区文件，并且将这次删除放入暂存区$ git rm [file1] [file2] ... 停止追踪指定文件，但该文件会保留在工作区$ git rm --cached [file] 改名文件，并且将这个改名放入暂存区$ git mv [file-original] [file-renamed]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="四、代码提交"><a href="#四、代码提交" class="headerlink" title="四、代码提交"></a>四、代码提交</h2><pre class="line-numbers language-sh" data-language="sh"><code class="language-sh"> 提交暂存区到仓库区$ git commit -m [message] 提交暂存区的指定文件到仓库区$ git commit [file1] [file2] ... -m [message] 提交工作区自上次commit之后的变化，直接到仓库区$ git commit -a 提交时显示所有diff信息$ git commit -v 使用一次新的commit，替代上一次提交 如果代码没有任何新变化，则用来改写上一次commit的提交信息$ git commit --amend -m [message] 重做上一次commit，并包括指定文件的新变化$ git commit --amend [file1] [file2] ...<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="五、分支"><a href="#五、分支" class="headerlink" title="五、分支"></a>五、分支</h2><pre class="line-numbers language-sh" data-language="sh"><code class="language-sh"> 列出所有本地分支$ git branch 列出所有远程分支$ git branch -r 列出所有本地分支和远程分支$ git branch -a 新建一个分支，但依然停留在当前分支$ git branch [branch-name] 新建一个分支，并切换到该分支$ git checkout -b [branch] 新建一个分支，指向指定commit$ git branch [branch] [commit] 新建一个分支，与指定的远程分支建立追踪关系$ git branch --track [branch] [remote-branch] 切换到指定分支，并更新工作区$ git checkout [branch-name] 切换到上一个分支$ git checkout - 建立追踪关系，在现有分支与指定的远程分支之间$ git branch --set-upstream [branch] [remote-branch] 合并指定分支到当前分支$ git merge [branch] 选择一个commit，合并进当前分支$ git cherry-pick [commit] 删除分支$ git branch -d [branch-name] 删除远程分支$ git push origin --delete [branch-name]$ git branch -dr [remote/branch]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="六、标签"><a href="#六、标签" class="headerlink" title="六、标签"></a>六、标签</h2><pre class="line-numbers language-sh" data-language="sh"><code class="language-sh"> 列出所有tag$ git tag 新建一个tag在当前commit$ git tag [tag] 新建一个tag在指定commit$ git tag [tag] [commit] 删除本地tag$ git tag -d [tag] 删除远程tag$ git push origin :refs/tags/[tagName] 查看tag信息$ git show [tag] 提交指定tag$ git push [remote] [tag] 提交所有tag$ git push [remote] --tags 新建一个分支，指向某个tag$ git checkout -b [branch] [tag]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="七、查看信息"><a href="#七、查看信息" class="headerlink" title="七、查看信息"></a>七、查看信息</h2><pre class="line-numbers language-sh" data-language="sh"><code class="language-sh"> 显示有变更的文件$ git status 显示当前分支的版本历史$ git log 显示commit历史，以及每次commit发生变更的文件$ git log --stat 搜索提交历史，根据关键词$ git log -S [keyword] 显示某个commit之后的所有变动，每个commit占据一行$ git log [tag] HEAD --pretty=format:%s 显示某个commit之后的所有变动，其"提交说明"必须符合搜索条件$ git log [tag] HEAD --grep feature 显示某个文件的版本历史，包括文件改名$ git log --follow [file]$ git whatchanged [file] 显示指定文件相关的每一次diff$ git log -p [file] 显示过去5次提交$ git log -5 --pretty --oneline 显示所有提交过的用户，按提交次数排序$ git shortlog -sn 显示指定文件是什么人在什么时间修改过$ git blame [file] 显示暂存区和工作区的差异$ git diff 显示暂存区和上一个commit的差异$ git diff --cached [file] 显示工作区与当前分支最新commit之间的差异$ git diff HEAD 显示两次提交之间的差异$ git diff [first-branch]...[second-branch] 显示今天你写了多少行代码$ git diff --shortstat "@{0 day ago}" 显示某次提交的元数据和内容变化$ git show [commit] 显示某次提交发生变化的文件$ git show --name-only [commit] 显示某次提交时，某个文件的内容$ git show [commit]:[filename] 显示当前分支的最近几次提交$ git reflog<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="八、远程同步"><a href="#八、远程同步" class="headerlink" title="八、远程同步"></a>八、远程同步</h2><pre class="line-numbers language-sh" data-language="sh"><code class="language-sh"> 下载远程仓库的所有变动$ git fetch [remote] 显示所有远程仓库$ git remote -v 显示某个远程仓库的信息$ git remote show [remote] 增加一个新的远程仓库，并命名$ git remote add [shortname] [url] 取回远程仓库的变化，并与本地分支合并$ git pull [remote] [branch] 上传本地指定分支到远程仓库$ git push [remote] [branch] 强行推送当前分支到远程仓库，即使有冲突$ git push [remote] --force 推送所有分支到远程仓库$ git push [remote] --all<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="九、撤销"><a href="#九、撤销" class="headerlink" title="九、撤销"></a>九、撤销</h2><pre class="line-numbers language-sh" data-language="sh"><code class="language-sh"> 恢复暂存区的指定文件到工作区$ git checkout [file] 恢复某个commit的指定文件到暂存区和工作区$ git checkout [commit] [file] 恢复暂存区的所有文件到工作区$ git checkout . 重置暂存区的指定文件，与上一次commit保持一致，但工作区不变$ git reset [file] 重置暂存区与工作区，与上一次commit保持一致$ git reset --hard 重置当前分支的指针为指定commit，同时重置暂存区，但工作区不变$ git reset [commit] 重置当前分支的HEAD为指定commit，同时重置暂存区和工作区，与指定commit一致$ git reset --hard [commit] 重置当前HEAD为指定commit，但保持暂存区和工作区不变$ git reset --keep [commit] 新建一个commit，用来撤销指定commit 后者的所有变化都将被前者抵消，并且应用到当前分支$ git revert [commit] 暂时将未提交的变化移除，稍后再移入$ git stash$ git stash pop<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="十、其他"><a href="#十、其他" class="headerlink" title="十、其他"></a>十、其他</h2><pre class="line-numbers language-sh" data-language="sh"><code class="language-sh"> 生成一个可供发布的压缩包$ git archive<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><blockquote><p><a href="http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html">来自阮一峰的网络日志，列出了 Git 最常用的命令</a></p></blockquote>]]></content>
       
       
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python高效编程技巧</title>
+      <link href="/myhexo/2020/10/24/xue-xi/python/python-gao-xiao-bian-cheng-ji-qiao/"/>
+      <url>/myhexo/2020/10/24/xue-xi/python/python-gao-xiao-bian-cheng-ji-qiao/</url>
+      
+        <content type="html"><![CDATA[<p>工作中经常要处理各种各样的数据，遇到项目赶进度的时候自己写函数容易浪费时间。<br>Python 中有很多内置函数帮你提高工作效率！<br>一：在列表，字典中根据条件筛选数据</p><p>1.假设有一个数字列表 data, 过滤列表中的负数<br>列表推导式</p><pre class="line-numbers language-none"><code class="language-none">result = [i for i in data if i &gt;= 0]filterresult = filter(lambda x: x&gt;= 0, data)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>2.学生的数学分数以字典形式存储，筛选其中分数大于 80 分的同学</p><pre class="line-numbers language-none"><code class="language-none">d = {x:randint(50, 100) for x in range(1, 21)}{k: v for k, v in d.items() if v &gt; 80}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>二：对字典的键值对进行翻转</p><p>使用 zip() 函数</p><pre><code>zip() 函数用于将可迭代的对象作为参数，将对象中对应的元素打包成一个个元组，然后返回由这些元组组成的列表。</code></pre><pre class="line-numbers language-none"><code class="language-none">&gt;&gt;&gt; s1 = {x: randint(1, 4) for x in sample('abfcdrg', randint(1,5))}&gt;&gt;&gt; s1{'b': 1, 'f': 4, 'g': 3, 'r': 1}&gt;&gt;&gt; d = {k:v for k, v in zip(s1.values(), s1.keys())}&gt;&gt;&gt; d{1: 'r', 4: 'f', 3: 'g'}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>二. 统计序列中元素出现的频度<br>1.某随机序列中，找到出现次数最高的3个元素，它们出现的次数是多少？</p><p>随机序列如下：</p><pre class="line-numbers language-none"><code class="language-none">data = [randint(0,20) for _ in range(20)]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>方法1: 可以使用字典来统计，以列表中的数据为键，以出现的次数为值</p><pre class="line-numbers language-none"><code class="language-none">from random import randintdef demo():    data = [randint(0, 20) for _ in range(30)]    # 列表中出现数字出现的次数    d = dict.fromkeys(data, 0)    for v in li:        d[v] += 1    return d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>方法2：直接使用 collections 模块下面的 Counter 对象</p><pre class="line-numbers language-none"><code class="language-none">&gt;&gt;&gt; data = [randint(0, 20) for _ in range(30)]&gt;&gt;&gt; data[7, 8, 5, 16, 10, 16, 8, 17, 11, 18, 11, 17, 15, 7, 2, 19, 5, 16, 17, 17, 12, 19, 9, 10, 0, 20, 11, 2, 11, 10]&gt;&gt;&gt; c2 = Counter(data)&gt;&gt;&gt; c2Counter({17: 4, 11: 4, 16: 3, 10: 3, 7: 2, 8: 2, 5: 2, 2: 2, 19: 2, 18: 1, 15: 1, 12: 1, 9: 1, 0: 1, 20: 1})&gt;&gt;&gt; c2[14]4&gt;&gt;&gt; c2.most_common(3)  # 统计频度出现最高的3个数[(17, 4), (11, 4), (16, 3)]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol start="2"><li>对某英文文章单词进行统计，找到出现次数最高的单词以及出现的次数</li></ol><p>通过上面的练习，我们知道可以用 Counter 来解决</p><pre class="line-numbers language-none"><code class="language-none">import refrom collections import Counter# 统计某个文章中英文单词的词频with open('test.txt', 'r', encoding='utf-8')as f:    d = f.read()total = re.split('\W+', d)  # 所有的单词列表result = Counter(total)print(result.most_common(10))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>三.根据字典中值的大小，对字典中的项进行排序</p><p>比如班级中学生的数学成绩以字典的形式存储：</p><pre class="line-numbers language-none"><code class="language-none">{"Lnad": 88, "Jim", 71...}<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>请按数学成绩从高到底进行排序！</p><p>方法1: 利用 zip 将字典转化为元祖，再用 sorted 进行排序</p><pre class="line-numbers language-none"><code class="language-none">&gt;&gt;&gt; data = {x: randint(60, 100) for x in "xyzfafs"}&gt;&gt;&gt; data{'x': 73, 'y': 69, 'z': 76, 'f': 61, 'a': 64, 's': 100}&gt;&gt;&gt; sorted(data)['a', 'f', 's', 'x', 'y', 'z']&gt;&gt;&gt; data = sorted(zip(data.values(), data.keys()))&gt;&gt;&gt; data[(61, 'f'), (64, 'a'), (69, 'y'), (73, 'x'), (76, 'z'), (100, 's')]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>方法2: 利用 sorted 函数的 key 参数</p><pre class="line-numbers language-none"><code class="language-none">&gt;&gt;&gt; data.items()&gt;&gt;&gt; dict_items([('x', 64), ('y', 74), ('z', 66), ('f', 62), ('a', 80), ('s', 72)])&gt;&gt;&gt; sorted(data.items(), key=lambda x: x[1])[('f', 62), ('x', 64), ('z', 66), ('s', 72), ('y', 74), ('a', 80)]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>四. 在多个字典中找到公共键</p><p>实际场景：在足球联赛中，统计每轮比赛都有进球的球员</p><pre><code>第一轮： {"C罗": 1, "苏亚雷斯":2, "托雷斯": 1..}第二轮： {"内马尔": 1, "梅西":2, "姆巴佩": 3..}第三轮： {"姆巴佩": 2, "C罗":2, "内马尔": 1..}</code></pre><p>模拟随机的进球球员和进球数</p><pre class="line-numbers language-none"><code class="language-none">&gt;&gt;&gt; s1 = {x: randint(1, 4) for x in sample('abfcdrg', randint(1,5))}&gt;&gt;&gt; s1{'d': 3, 'g': 2}&gt;&gt;&gt; s2 = {x: randint(1, 4) for x in sample('abfcdrg', randint(1,5))}&gt;&gt;&gt; s2{'b': 4, 'g': 1, 'f': 1, 'r': 4, 'd': 3}&gt;&gt;&gt; s3 = {x: randint(1, 4) for x in sample('abfcdrg', randint(1,5))}&gt;&gt;&gt; s3{'b': 4, 'r': 4, 'a': 2, 'g': 3, 'c': 4}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>首先获取字典的 keys，然后取每轮比赛 key 的交集<br>由于比赛轮次数是不定的，所以使用 map 来批量操作</p><pre class="line-numbers language-none"><code class="language-none">map(dict.keys, [s1, s2, s3])<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后一直累积取其交集， 使用 reduce 函数</p><pre class="line-numbers language-none"><code class="language-none">reduce(lambda x,y: x &amp; y, map(dict.keys, [s1, s2, s3]))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>一行代码搞定！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> Python </tag>
+            
+        </tags>
       
     </entry>
     

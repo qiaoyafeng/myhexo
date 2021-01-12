@@ -6,7 +6,7 @@
   <link href="https://qiaoyafeng.github.io/myhexo/atom.xml" rel="self"/>
   
   <link href="https://qiaoyafeng.github.io/myhexo/"/>
-  <updated>2021-01-02T17:38:28.642Z</updated>
+  <updated>2021-01-12T15:52:10.368Z</updated>
   <id>https://qiaoyafeng.github.io/myhexo/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Python之禅</title>
+    <link href="https://qiaoyafeng.github.io/myhexo/2021/01/12/xue-xi/python/python-zhi-shan/"/>
+    <id>https://qiaoyafeng.github.io/myhexo/2021/01/12/xue-xi/python/python-zhi-shan/</id>
+    <published>2021-01-12T15:49:04.000Z</published>
+    <updated>2021-01-12T15:52:10.368Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;又名 &lt;a href=&quot;https://www.python.org/dev/peps/pep-0020&quot;&gt;&lt;strong&gt;PEP 20&lt;/strong&gt;&lt;/a&gt;, Python设计的指导原则。&lt;/p&gt;
+&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="https://qiaoyafeng.github.io/myhexo/categories/Python/"/>
+    
+    
+    <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Python" scheme="https://qiaoyafeng.github.io/myhexo/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>在这个世界相遇</title>
     <link href="https://qiaoyafeng.github.io/myhexo/2020/12/25/sheng-huo/yi-gong/nian-hui/bei-jing-yi-gong-lian-2019-nian-nian-hui-zhao-pian-tie/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2020/12/25/sheng-huo/yi-gong/nian-hui/bei-jing-yi-gong-lian-2019-nian-nian-hui-zhao-pian-tie/</id>
     <published>2020-12-24T16:01:06.000Z</published>
-    <updated>2021-01-02T17:38:28.642Z</updated>
+    <updated>2021-01-06T16:32:10.748Z</updated>
     
     
       
@@ -36,6 +64,14 @@
     
     
     
+    <category term="义工" scheme="https://qiaoyafeng.github.io/myhexo/categories/%E4%B9%89%E5%B7%A5/"/>
+    
+    
+    <category term="北京义工联" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8C%97%E4%BA%AC%E4%B9%89%E5%B7%A5%E8%81%94/"/>
+    
+    <category term="活动总结" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E6%B4%BB%E5%8A%A8%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="年会" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%B9%B4%E4%BC%9A/"/>
     
   </entry>
   
@@ -44,7 +80,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/xin-lu/xin-lu-yi-gong-lu/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/xin-lu/xin-lu-yi-gong-lu/</id>
     <published>2020-12-24T15:57:13.000Z</published>
-    <updated>2021-01-02T17:38:28.644Z</updated>
+    <updated>2021-01-06T16:32:10.750Z</updated>
     
     
       
@@ -57,12 +93,14 @@
     
     
     
-    <category term="Markdown" scheme="https://qiaoyafeng.github.io/myhexo/categories/Markdown/"/>
+    <category term="义工" scheme="https://qiaoyafeng.github.io/myhexo/categories/%E4%B9%89%E5%B7%A5/"/>
     
     
     <category term="北京义工联" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8C%97%E4%BA%AC%E4%B9%89%E5%B7%A5%E8%81%94/"/>
     
     <category term="心路" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%BF%83%E8%B7%AF/"/>
+    
+    <category term="活动总结" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E6%B4%BB%E5%8A%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
@@ -71,7 +109,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/zhu-xue/2019-nian-he-bei-wei-xian-zou-fang-zhao-pian/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/zhu-xue/2019-nian-he-bei-wei-xian-zou-fang-zhao-pian/</id>
     <published>2020-12-24T15:46:40.000Z</published>
-    <updated>2021-01-02T17:38:28.624Z</updated>
+    <updated>2021-01-06T16:32:10.746Z</updated>
     
     
       
@@ -85,12 +123,16 @@
     
     
     
-    <category term="Markdown" scheme="https://qiaoyafeng.github.io/myhexo/categories/Markdown/"/>
+    <category term="义工" scheme="https://qiaoyafeng.github.io/myhexo/categories/%E4%B9%89%E5%B7%A5/"/>
     
     
-    <category term="Typora" scheme="https://qiaoyafeng.github.io/myhexo/tags/Typora/"/>
+    <category term="北京义工联" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8C%97%E4%BA%AC%E4%B9%89%E5%B7%A5%E8%81%94/"/>
     
-    <category term="Markdown" scheme="https://qiaoyafeng.github.io/myhexo/tags/Markdown/"/>
+    <category term="活动总结" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E6%B4%BB%E5%8A%A8%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="走访" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E8%B5%B0%E8%AE%BF/"/>
+    
+    <category term="助学" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8A%A9%E5%AD%A6/"/>
     
   </entry>
   
@@ -99,7 +141,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/huo-dong-zong-jie/2019-nian-10-yue-26-ri-fang-shan/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/huo-dong-zong-jie/2019-nian-10-yue-26-ri-fang-shan/</id>
     <published>2020-12-24T15:45:04.000Z</published>
-    <updated>2021-01-02T17:38:28.653Z</updated>
+    <updated>2021-01-06T16:32:10.754Z</updated>
     
     
       
@@ -114,12 +156,39 @@
     
     
     
-    <category term="Markdown" scheme="https://qiaoyafeng.github.io/myhexo/categories/Markdown/"/>
+    <category term="义工" scheme="https://qiaoyafeng.github.io/myhexo/categories/%E4%B9%89%E5%B7%A5/"/>
     
     
-    <category term="Typora" scheme="https://qiaoyafeng.github.io/myhexo/tags/Typora/"/>
+    <category term="北京义工联" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8C%97%E4%BA%AC%E4%B9%89%E5%B7%A5%E8%81%94/"/>
     
-    <category term="Markdown" scheme="https://qiaoyafeng.github.io/myhexo/tags/Markdown/"/>
+    <category term="活动总结" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E6%B4%BB%E5%8A%A8%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文档</title>
+    <link href="https://qiaoyafeng.github.io/myhexo/2020/12/24/xue-xi/hexo/index/"/>
+    <id>https://qiaoyafeng.github.io/myhexo/2020/12/24/xue-xi/hexo/index/</id>
+    <published>2020-12-24T15:45:04.000Z</published>
+    <updated>2021-01-07T15:44:39.173Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;欢迎使用 Hexo，本文档将帮助您快速上手。如果您在使用过程中遇到问题，请查看 &lt;a href=&quot;troubleshooting.html&quot;&gt;问题解答&lt;/a&gt; 中的解答，或者在 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://qiaoyafeng.github.io/myhexo/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://qiaoyafeng.github.io/myhexo/tags/Hexo/"/>
+    
+    <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -128,7 +197,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/xin-lu/wo-men-de-shi-guang-yi-gong-de-guo-wang/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/xin-lu/wo-men-de-shi-guang-yi-gong-de-guo-wang/</id>
     <published>2020-12-24T15:43:19.000Z</published>
-    <updated>2021-01-02T17:38:28.652Z</updated>
+    <updated>2021-01-06T16:32:10.752Z</updated>
     
     
       
@@ -143,6 +212,14 @@
     
     
     
+    <category term="义工" scheme="https://qiaoyafeng.github.io/myhexo/categories/%E4%B9%89%E5%B7%A5/"/>
+    
+    
+    <category term="北京义工联" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8C%97%E4%BA%AC%E4%B9%89%E5%B7%A5%E8%81%94/"/>
+    
+    <category term="心路" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%BF%83%E8%B7%AF/"/>
+    
+    <category term="活动总结" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E6%B4%BB%E5%8A%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
@@ -151,7 +228,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/huo-dong-zong-jie/2020-nian-8-yue-15-ri-fang-shan/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/huo-dong-zong-jie/2020-nian-8-yue-15-ri-fang-shan/</id>
     <published>2020-12-24T15:40:33.000Z</published>
-    <updated>2021-01-02T17:38:28.661Z</updated>
+    <updated>2021-01-06T16:32:10.758Z</updated>
     
     
       
@@ -166,12 +243,12 @@
     
     
     
-    <category term="Markdown" scheme="https://qiaoyafeng.github.io/myhexo/categories/Markdown/"/>
+    <category term="义工" scheme="https://qiaoyafeng.github.io/myhexo/categories/%E4%B9%89%E5%B7%A5/"/>
     
     
-    <category term="Typora" scheme="https://qiaoyafeng.github.io/myhexo/tags/Typora/"/>
+    <category term="北京义工联" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8C%97%E4%BA%AC%E4%B9%89%E5%B7%A5%E8%81%94/"/>
     
-    <category term="Markdown" scheme="https://qiaoyafeng.github.io/myhexo/tags/Markdown/"/>
+    <category term="活动总结" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E6%B4%BB%E5%8A%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
@@ -180,7 +257,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/huo-dong-zong-jie/2020-nian-9-yue-19-ri-fang-shan/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/huo-dong-zong-jie/2020-nian-9-yue-19-ri-fang-shan/</id>
     <published>2020-12-24T15:39:52.000Z</published>
-    <updated>2021-01-02T17:38:28.668Z</updated>
+    <updated>2021-01-06T16:32:10.761Z</updated>
     
     
       
@@ -195,6 +272,12 @@
     
     
     
+    <category term="义工" scheme="https://qiaoyafeng.github.io/myhexo/categories/%E4%B9%89%E5%B7%A5/"/>
+    
+    
+    <category term="北京义工联" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8C%97%E4%BA%AC%E4%B9%89%E5%B7%A5%E8%81%94/"/>
+    
+    <category term="活动总结" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E6%B4%BB%E5%8A%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
@@ -203,7 +286,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/huo-dong-zong-jie/2020-nian-12-yue-12-ri-fang-shan/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2020/12/24/sheng-huo/yi-gong/huo-dong-zong-jie/2020-nian-12-yue-12-ri-fang-shan/</id>
     <published>2020-12-24T15:36:55.000Z</published>
-    <updated>2021-01-02T17:38:28.654Z</updated>
+    <updated>2021-01-06T16:32:10.756Z</updated>
     
     
       
@@ -218,33 +301,68 @@
     
     
     
-    <category term="Markdown" scheme="https://qiaoyafeng.github.io/myhexo/categories/Markdown/"/>
+    <category term="义工" scheme="https://qiaoyafeng.github.io/myhexo/categories/%E4%B9%89%E5%B7%A5/"/>
     
     
-    <category term="Typora" scheme="https://qiaoyafeng.github.io/myhexo/tags/Typora/"/>
+    <category term="北京义工联" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8C%97%E4%BA%AC%E4%B9%89%E5%B7%A5%E8%81%94/"/>
     
-    <category term="Markdown" scheme="https://qiaoyafeng.github.io/myhexo/tags/Markdown/"/>
+    <category term="活动总结" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E6%B4%BB%E5%8A%A8%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://qiaoyafeng.github.io/myhexo/2020/12/14/hello-world/"/>
-    <id>https://qiaoyafeng.github.io/myhexo/2020/12/14/hello-world/</id>
-    <published>2020-12-14T05:34:52.872Z</published>
-    <updated>2020-12-14T05:34:52.872Z</updated>
+    <title>常用 Git 命令清单</title>
+    <link href="https://qiaoyafeng.github.io/myhexo/2020/10/26/xue-xi/git/chang-yong-git-ming-ling-qing-dan/"/>
+    <id>https://qiaoyafeng.github.io/myhexo/2020/10/26/xue-xi/git/chang-yong-git-ming-ling-qing-dan/</id>
+    <published>2020-10-26T05:30:04.000Z</published>
+    <updated>2021-01-07T16:50:55.849Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Git-命令清单。几个专用名词的译名如下。&quot;&gt;&lt;a href=&quot;#Git-命令清单。几个专用名词的译名如下。&quot; class=&quot;headerlink&quot; title=&quot;Git 命令清单。几个专用名词的译名如下。&quot;&gt;&lt;/a&gt;Git 命令清单。几个专用名词的译名如下。&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Workspace：工作区 Index &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Stage：暂存区 &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Repository：仓库区（或本地仓库） &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Remote：远程仓库&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="Git" scheme="https://qiaoyafeng.github.io/myhexo/categories/Git/"/>
+    
+    
+    <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Git" scheme="https://qiaoyafeng.github.io/myhexo/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python高效编程技巧</title>
+    <link href="https://qiaoyafeng.github.io/myhexo/2020/10/24/xue-xi/python/python-gao-xiao-bian-cheng-ji-qiao/"/>
+    <id>https://qiaoyafeng.github.io/myhexo/2020/10/24/xue-xi/python/python-gao-xiao-bian-cheng-ji-qiao/</id>
+    <published>2020-10-24T05:30:04.000Z</published>
+    <updated>2021-01-07T16:09:59.263Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;工作中经常要处理各种各样的数据，遇到项目赶进度的时候自己写函数容易浪费时间。&lt;br&gt;Python 中有很多内置函数帮你提高工作效率！&lt;br&gt;一：在列表，字典中根据条件筛选数据&lt;/p&gt;
+&lt;p&gt;1.假设有一个数字列表 data,</summary>
         
       
     
     
     
+    <category term="Python" scheme="https://qiaoyafeng.github.io/myhexo/categories/Python/"/>
+    
+    
+    <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Python" scheme="https://qiaoyafeng.github.io/myhexo/tags/Python/"/>
     
   </entry>
   
