@@ -11,10 +11,7 @@ tags:
   - English
   - 博客
   - new concept
-
 ---
-
-
 
 ## Listen to the tape then answer this question. 
 
@@ -49,5 +46,3 @@ American    美国的	Mini  迷你
 Volvo   沃尔沃		Fiat   菲亚特
 
 peugeot  标志
-
- 
