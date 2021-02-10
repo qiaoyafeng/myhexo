@@ -1,10 +1,10 @@
 
-## Python 备忘单
+## Python 备忘录
 
-- [About ![Binder](https://mybinder.org/v2/gh/wilfredinni/python-cheatsheet/master?filepath=jupyter_notebooks)](#about-)
+- [About](#about-)
   - [Contribute](#contribute)
   - [Read It](#read-it)
-  - [Python Cheatsheet](#python-cheatsheet)
+  - [Python Cheatsheet](#Python 备忘录)
   - [The Zen of Python](#the-zen-of-python)
   - [Python Basics](#python-basics)
     - [Math Operators](#math-operators)
@@ -193,11 +193,13 @@
     - [pipenv](#pipenv)
     - [anaconda](#anaconda)
 
-## The Zen of Python
+## Python 之禅
 
-From the [PEP 20 -- The Zen of Python](https://www.python.org/dev/peps/pep-0020/):
+来自 [PEP 20 -- The Zen of Python](https://www.python.org/dev/peps/pep-0020/):
 
 > Long time Pythoneer Tim Peters succinctly channels the BDFL's guiding principles for Python's design into 20 aphorisms, only 19 of which have been written down.
+>
+> 很长时间 Python 工程师 Tim Peters 简洁地输出了 BDFL 指南原则共20条格言用于Python的设计，其中有19条已经被记录下来。
 
 ```python
 >>> import this
@@ -222,27 +224,48 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
+
+Python 之禅，由Tim Peters编写
+
+优美胜于丑陋（Python以编写优美的代码为目标）
+明了胜于晦涩（优美的代码应当是明了的，命名规范，风格相似）
+简洁胜于复杂（优美的代码应当是简洁的，不要有复杂的内部实现）
+复杂胜于凌乱（如果复杂不可避免，那代码间也不能有难懂的关系，要保持接口简洁）
+扁平胜于嵌套（优美的代码应当是扁平的，不能有太多的嵌套）
+间隔胜于紧凑（优美的代码有适当的间隔，不要奢望一行代码解决问题）
+可读性很重要（优美的代码是可读的）
+即便假借特例的实用性之名，也不可违背这些规则（这些规则至高无上）
+不要包容所有错误，除非您确定需要这样做（精准地捕获异常，不写 except:pass 风格的代码）
+当存在多种可能，不要尝试去猜测
+而是尽量找一种，最好是唯一一种明显的解决方案（如果不确定，就用穷举法）
+虽然这并不容易，因为您不是 Python 之父（这里的 Dutch 是指 Guido ）
+做也许好过不做，但不假思索就动手还不如不做（动手之前要细思量）
+如果您无法向人描述您的方案，那肯定不是一个好方案；反之亦然（方案测评标准）
+命名空间是一种绝妙的理念，我们应当多加利用（倡导与号召）
+
+
+
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
-## Python Basics
+## Python 基础
 
-### Math Operators
+### 数学运算符
 
-From **Highest** to **Lowest** precedence:
+从 **最高** 到 **最低** 的优先级:
 
-| Operators | Operation         | Example         |
-| --------- | ----------------- | --------------- |
-| \*\*      | Exponent          | `2 ** 3 = 8`    |
-| %         | Modulus/Remainder | `22 % 8 = 6`    |
-| //        | Integer division  | `22 // 8 = 2`   |
+| 操作符     |     操作           | 示例            |
+| :-------: | ----------------- | --------------- |
+| \*\*      | 指数               | `2 ** 3 = 8`    |
+| %         | 取模/取余           | `22 % 8 = 6`    |
+| //        | 整数除法 | `22 // 8 = 2`   |
 | /         | Division          | `22 / 8 = 2.75` |
-| \*        | Multiplication    | `3 * 3 = 9`     |
-| -         | Subtraction       | `5 - 2 = 3`     |
-| +         | Addition          | `2 + 2 = 4`     |
+| \*        | 乘法  | `3 * 3 = 9`     |
+| -         | 减法     | `5 - 2 = 3`     |
+| +         | 加法          | `2 + 2 = 4`     |
 
-Examples of expressions in the interactive shell:
+在交互式shell中表达式示例：
 
 ```python
 >>> 2 + 3 * 6
@@ -274,48 +297,48 @@ Examples of expressions in the interactive shell:
 16.0
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
-### Data Types
+### 数据类型
 
-| Data Type              | Examples                                  |
-| ---------------------- | ----------------------------------------- |
-| Integers               | `-2, -1, 0, 1, 2, 3, 4, 5`                |
-| Floating-point numbers | `-1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25` |
-| Strings                | `'a', 'aa', 'aaa', 'Hello!', '11 cats'`   |
+| 数据类型 | 示例                                      |
+| -------- | ----------------------------------------- |
+| 整数     | `-2, -1, 0, 1, 2, 3, 4, 5`                |
+| 浮点型   | `-1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25` |
+| 字符串   | `'a', 'aa', 'aaa', 'Hello!', '11 cats'`   |
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
-### String Concatenation and Replication
+### 字符串连接和重复
 
-String concatenation:
+字符串连接:
 
 ```python
 >>> 'Alice' 'Bob'
 'AliceBob'
 ```
 
-Note: Avoid `+` operator for string concatenation. Prefer string formatting.
+注释: 避免 + 操作符对字符串连接，提升格式化字符串。
 
-String Replication:
+字符串重复:
 
 ```python
 >>> 'Alice' * 5
 'AliceAliceAliceAliceAlice'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
-### Variables
+### 变量
 
-You can name a variable anything as long as it obeys the following rules:
+你能命名一个变量，只要符合以下规则：
 
-1. It can be only one word.
-1. It can use only letters, numbers, and the underscore (`_`) character.
-1. It can’t begin with a number.
-1. Variable name starting with an underscore (`_`) are considered as "unuseful`.
+1. 它只能是一个词。
+1. 它只能用字母、数字和下划线。
+1. 它不能以一个数字开头。
+1. 变量名以下划线开头可以作为特殊意义。
 
-Example:
+示例:
 
 ```python
 >>> spam = 'Hello'
@@ -327,13 +350,13 @@ Example:
 >>> _spam = 'Hello'
 ```
 
-`_spam` should not be used again in the code.
+`_spam` 不应当被再次用在代码中。
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
-### Comments
+### 注释
 
-Inline comment:
+行内注释:
 
 ```python
 # This is a comment
@@ -365,7 +388,7 @@ def foo():
     """
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The print() Function
 
@@ -380,7 +403,7 @@ Hello world!
 Hello world! 1
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The input() Function
 
@@ -395,7 +418,7 @@ Al
 It is good to meet you, Al
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The len() Function
 
@@ -415,7 +438,7 @@ boolean evaluation.
 >>>     print("the list is not empty!")
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The str(), int(), and float() Functions
 
@@ -448,7 +471,7 @@ Float to Integer:
 8
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Flow Control
 
@@ -553,7 +576,7 @@ And these as well:
 >>>    pass
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Boolean Operators
 
@@ -584,7 +607,7 @@ The _not_ Operator’s _Truth_ Table:
 | `not True`  | `False`      |
 | `not False` | `True`       |
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Mixing Boolean and Comparison Operators
 
@@ -610,7 +633,7 @@ You can also use multiple Boolean operators in an expression, along with the com
 True
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### if Statements
 
@@ -619,7 +642,7 @@ if name == 'Alice':
     print('Hi, Alice.')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### else Statements
 
@@ -631,7 +654,7 @@ else:
     print('Hello, stranger.')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### elif Statements
 
@@ -655,7 +678,7 @@ else:
     print('You are neither Alice nor a little kid.')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### while Loop Statements
 
@@ -666,7 +689,7 @@ while spam < 5:
     spam = spam + 1
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### break Statements
 
@@ -681,7 +704,7 @@ while True:
 print('Thank you!')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### continue Statements
 
@@ -700,7 +723,7 @@ while True:
 print('Access granted.')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### for Loops and the range() Function
 
@@ -754,7 +777,7 @@ useful when a `break` condition can occur in the loop:
 >>>    print("only executed when no item of the list is equal to 3")
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Importing Modules
 
@@ -772,7 +795,7 @@ import random, sys, os, math
 from random import *
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Ending a Program Early with sys.exit()
 
@@ -787,7 +810,7 @@ while True:
     print('You typed {}.'.format(response))
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Functions
 
@@ -801,7 +824,7 @@ Hello Alice
 Hello Bob
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Return Values and return Statements
 
@@ -838,7 +861,7 @@ fortune = getAnswer(r)
 print(fortune)
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The None Value
 
@@ -854,7 +877,7 @@ True
 
 Note: never compare to `None` with the `==` operator. Always use `is`.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Keyword Arguments and print()
 
@@ -874,7 +897,7 @@ cats dogs mice
 cats,dogs,mice
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Local and Global Scope
 
@@ -886,7 +909,7 @@ cats,dogs,mice
 
 - You can use the same name for different variables if they are in different scopes. That is, there can be a local variable named spam and a global variable also named spam.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The global Statement
 
@@ -913,7 +936,7 @@ There are four rules to tell whether a variable is in a local scope or global sc
 
 1. But if the variable is not used in an assignment statement, it is a global variable.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Exception Handling
 
@@ -937,7 +960,7 @@ None
 42.0
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Final code in exception handling
 
@@ -967,7 +990,7 @@ None
 42.0
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Lists
 
@@ -978,7 +1001,7 @@ None
 ['cat', 'bat', 'rat', 'elephant']
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Getting Individual Values in a List with Indexes
 
@@ -1003,7 +1026,7 @@ None
 'elephant'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Negative Indexes
 
@@ -1023,7 +1046,7 @@ None
 'The elephant is afraid of the bat.'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Getting Sublists with Slices
 
@@ -1066,7 +1089,7 @@ Slicing the complete list will perform a copy:
 ['cat', 'bat', 'rat', 'elephant']
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Getting a List’s Length with len()
 
@@ -1076,7 +1099,7 @@ Slicing the complete list will perform a copy:
 3
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Changing Values in a List with Indexes
 
@@ -1098,7 +1121,7 @@ Slicing the complete list will perform a copy:
 ['cat', 'aardvark', 'aardvark', 12345]
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### List Concatenation and List Replication
 
@@ -1117,7 +1140,7 @@ Slicing the complete list will perform a copy:
 [1, 2, 3, 'A', 'B', 'C']
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Removing Values from Lists with del Statements
 
@@ -1134,7 +1157,7 @@ Slicing the complete list will perform a copy:
 ['cat', 'bat']
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Using for Loops with Lists
 
@@ -1148,7 +1171,7 @@ Index 2 in supplies is: flame-throwers
 Index 3 in supplies is: binders
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Looping Through Multiple Lists with zip()
 
@@ -1185,7 +1208,7 @@ False
 True
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The Multiple Assignment Trick
 
@@ -1223,7 +1246,7 @@ The multiple assignment trick can also be used to swap the values in two variabl
 'Alice'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Augmented Assignment Operators
 
@@ -1249,7 +1272,7 @@ Examples:
 ['Zophie', 'Zophie', 'Zophie']
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Finding a Value in a List with the index() Method
 
@@ -1260,7 +1283,7 @@ Examples:
 1
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Adding Values to Lists with the append() and insert() Methods
 
@@ -1286,7 +1309,7 @@ Examples:
 ['cat', 'chicken', 'dog', 'bat']
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Removing Values from Lists with remove()
 
@@ -1301,7 +1324,7 @@ Examples:
 
 If the value appears multiple times in the list, only the first instance of the value will be removed.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 
 ### Removing Values from Lists with pop()
@@ -1322,7 +1345,7 @@ If the value appears multiple times in the list, only the first instance of the 
 ['bat', 'rat']
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Sorting the Values in a List with the sort() Method
 
@@ -1365,7 +1388,7 @@ You can use the built-in function `sorted` to return a new list:
 ['ants', 'badgers', 'cats', 'dogs', 'elephants']
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Tuple Data Type
 
@@ -1387,7 +1410,7 @@ You can use the built-in function `sorted` to return a new list:
 
 The main way that tuples are different from lists is that tuples, like strings, are immutable.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Converting Types with the list() and tuple() Functions
 
@@ -1406,7 +1429,7 @@ The main way that tuples are different from lists is that tuples, like strings, 
 ['h', 'e', 'l', 'l', 'o']
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Dictionaries and Structuring Data
 
@@ -1416,7 +1439,7 @@ Example Dictionary:
 myCat = {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The keys(), values(), and items() Methods
 
@@ -1460,7 +1483,7 @@ Key: age Value: 42
 Key: color Value: red
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Checking Whether a Key or Value Exists in a Dictionary
 
@@ -1489,7 +1512,7 @@ False
 True
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The get() Method
 
@@ -1507,7 +1530,7 @@ Get has two parameters: key and default value if the key did not exist
 'I am bringing 0 eggs.'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The setdefault() Method
 
@@ -1543,7 +1566,7 @@ Using `setdefault` we could write the same code more succinctly:
 {'color': 'black', 'age': 5, 'name': 'Pooka'}
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Pretty Printing
 
@@ -1584,7 +1607,7 @@ Using `setdefault` we could write the same code more succinctly:
  'y': 1}
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Merge two dictionaries
 
@@ -1739,7 +1762,7 @@ KeyError: 3
 {1, 4}
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## itertools Module
 
@@ -1753,7 +1776,7 @@ The _itertools_ module comes in the standard library and must be imported.
 
 The [operator](https://docs.python.org/3/library/operator.html) module will also be used. This module is not necessary when using itertools, but needed for some of the examples below.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### accumulate()
 
@@ -1818,7 +1841,7 @@ If no function is designated the items will be summed:
 31 + 1 = 32
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### combinations()
 
@@ -1840,7 +1863,7 @@ Example:
 ('triangle', 'square')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### combinations_with_replacement()
 
@@ -1865,7 +1888,7 @@ Example:
 ('square', 'square')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### count()
 
@@ -1889,7 +1912,7 @@ Example:
 22
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### cycle()
 
@@ -1917,7 +1940,7 @@ orange
 
 When reached the end of the iterable it start over again from the beginning.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### chain()
 
@@ -1946,7 +1969,7 @@ square
 pentagon
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### compress()
 
@@ -1968,7 +1991,7 @@ circle
 square
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### dropwhile()
 
@@ -1994,7 +2017,7 @@ Example:
 1
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### filterfalse()
 
@@ -2019,7 +2042,7 @@ Example:
 10
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### groupby()
 
@@ -2064,7 +2087,7 @@ decepticon
 [{'name': 'megatron', 'faction': 'decepticon'}, {'name': 'starcream', 'faction': 'decepticon'}]
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### islice()
 
@@ -2085,7 +2108,7 @@ red
 orange
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### permutations()
 
@@ -2108,7 +2131,7 @@ Example:
 ('c', 'b', 'a')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### product()
 
@@ -2131,7 +2154,7 @@ Creates the cartesian products from a series of iterables.
 (3, 'c')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### repeat()
 
@@ -2151,7 +2174,7 @@ spam
 spam
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### starmap()
 
@@ -2173,7 +2196,7 @@ Example:
 21
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### takewhile()
 
@@ -2196,7 +2219,7 @@ Example:
 4
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### tee()
 
@@ -2232,7 +2255,7 @@ green
 blue
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### zip_longest()
 
@@ -2261,7 +2284,7 @@ Example:
 (None, 10)
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Comprehensions
 
@@ -2319,7 +2342,7 @@ How are you?
 I'm doing fine.
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Raw Strings
 
@@ -2332,7 +2355,7 @@ That is Carol\'s cat.
 
 Note: mostly used for regular expression definition (see `re` package)
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Multiline Strings with Triple Quotes
 
@@ -2369,7 +2392,7 @@ To keep a nicer flow in your code, you can use the `dedent` function from the `t
 
 This generates the same string than before.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Indexing and Slicing Strings
 
@@ -2433,7 +2456,7 @@ Slicing:
 'Hello'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The in and not in Operators with Strings
 
@@ -2475,7 +2498,7 @@ False
 True
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The upper(), lower(), isupper(), and islower() String Methods
 
@@ -2527,7 +2550,7 @@ False
 False
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The isX String Methods
 
@@ -2537,7 +2560,7 @@ False
 - **isspace()** returns True if the string consists only of spaces,tabs, and new-lines and is not blank.
 - **istitle()** returns True if the string consists only of words that begin with an uppercase letter followed by only lowercase letters.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The startswith() and endswith() String Methods
 
@@ -2571,7 +2594,7 @@ True
 True
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The join() and split() String Methods
 
@@ -2609,7 +2632,7 @@ split():
 ['My na', 'e is Si', 'on']
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Justifying Text with rjust(), ljust(), and center()
 
@@ -2659,7 +2682,7 @@ center():
 '=======Hello========'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Removing Whitespace with strip(), rstrip(), and lstrip()
 
@@ -2685,7 +2708,7 @@ center():
 'BaconSpamEggs'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Copying and Pasting Strings with the pyperclip Module (need pip install)
 
@@ -2698,7 +2721,7 @@ center():
 'Hello world!'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## String Formatting
 
@@ -2720,7 +2743,7 @@ We can use the `%x` format specifier to convert an int value to a string:
 
 Note: For new code, using [str.format](#string-formatting-strformat) or [f-strings](#formatted-string-literals-or-f-strings-python-36) (Python 3.6+) is strongly recommended over the `%` operator.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### String Formatting (str.format)
 
@@ -2743,7 +2766,7 @@ The official [Python 3.x documentation](https://docs.python.org/3/library/stdtyp
 
 > The formatting operations described here exhibit a variety of quirks that lead to a number of common errors (such as failing to display tuples and dictionaries correctly). Using the newer formatted string literals or the str.format() interface helps avoid these errors. These alternatives also provide more powerful, flexible and extensible approaches to formatting text.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Lazy string formatting
 
@@ -2769,7 +2792,7 @@ Or:
 >>> logging.debug("User name: " + name)
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Formatted String Literals or f-strings (Python 3.6+)
 
@@ -2788,7 +2811,7 @@ It is even possible to do inline arithmetic with it:
 'Five plus ten is 15 and not 30.'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Template Strings
 
@@ -2802,7 +2825,7 @@ A simpler and less powerful mechanism, but it is recommended when handling forma
 'Hey Elizabeth!'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Regular Expressions
 
@@ -2817,7 +2840,7 @@ All the regex functions in Python are in the re module:
 >>> import re
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Matching Regex Objects
 
@@ -2830,7 +2853,7 @@ All the regex functions in Python are in the re module:
 Phone number found: 415-555-4242
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Grouping with Parentheses
 
@@ -2867,7 +2890,7 @@ To retrieve all the groups at once: use the groups() method—note the plural fo
 555-4242
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Matching Multiple Groups with the Pipe
 
@@ -2901,7 +2924,7 @@ You can also use the pipe to match one of several patterns as part of your regex
 'mobile'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Optional Matching with the Question Mark
 
@@ -2918,7 +2941,7 @@ The ? character flags the group that precedes it as an optional part of the patt
 'Batwoman'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Matching Zero or More with the Star
 
@@ -2939,7 +2962,7 @@ The \* (called the star or asterisk) means “match zero or more”—the group 
 'Batwowowowoman'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Matching One or More with the Plus
 
@@ -2964,7 +2987,7 @@ While \* means “match zero or more,” the + (or plus) means “match one or m
 True
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Matching Specific Repetitions with Curly Brackets
 
@@ -2985,7 +3008,7 @@ Instead of one number, you can specify a range by writing a minimum, a comma, an
 True
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Greedy and Nongreedy Matching
 
@@ -3005,7 +3028,7 @@ Python’s regular expressions are greedy by default, which means that in ambigu
 'HaHaHa'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The findall() Method
 
@@ -3024,7 +3047,7 @@ To summarize what the findall() method returns, remember the following:
 
 - When called on a regex that has groups, such as (\d\d\d)-(d\d)-(\d\d\d\d), the method findall() returns a list of es of strings (one string for each group), such as [('415', '555', '9999'), ('212', '555', '0000')].
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Making Your Own Character Classes
 
@@ -3049,7 +3072,7 @@ By placing a caret character (^) just after the character class’s opening brac
 ', 'B', 'B', 'Y', ' ', 'F', 'D', '.']
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The Caret and Dollar Sign Characters
 
@@ -3086,7 +3109,7 @@ True
 True
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The Wildcard Character
 
@@ -3099,7 +3122,7 @@ The . (or dot) character in a regular expression is called a wildcard and will m
 ['cat', 'hat', 'sat', 'lat', 'mat']
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Matching Everything with Dot-Star
 
@@ -3133,7 +3156,7 @@ The dot-star uses greedy mode: It will always try to match as much text as possi
 '<To serve man> for dinner.>'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Matching Newlines with the Dot Character
 
@@ -3151,7 +3174,7 @@ The dot-star will match everything except a newline. By passing re.DOTALL as the
 'Serve the public trust.\nProtect the innocent.\nUphold the law.'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Review of Regex Symbols
 
@@ -3173,7 +3196,7 @@ The dot-star will match everything except a newline. By passing re.DOTALL as the
 | `[abc]`                  | any character between the brackets (such as a, b, ).   |
 | `[^abc]`                 | any character that isn’t between the brackets.         |
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Case-Insensitive Matching
 
@@ -3196,7 +3219,7 @@ To make your regex case-insensitive, you can pass re.IGNORECASE or re.I as a sec
 'robocop'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Substituting Strings with the sub() Method
 
@@ -3223,7 +3246,7 @@ Another example:
 A**** told C**** that E**** knew B**** was a double agent.'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Managing Complex Regexes
 
@@ -3248,7 +3271,7 @@ phone_regex = re.compile(r'''(
     )''', re.VERBOSE)
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Handling File and Directory Paths
 
@@ -3257,7 +3280,7 @@ One is the `os.path` module and the other is the `pathlib` module.
 The `pathlib` module was added in Python 3.4, offering an object-oriented way
 to handle file system paths.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Backslash on Windows and Forward Slash on OS X and Linux
 
@@ -3327,7 +3350,7 @@ Using `pathlib` on \*nix:
 /home/asweigart/invite.docx
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### The Current Working Directory
 
@@ -3358,7 +3381,7 @@ Using `pathlib` on \*nix:
 /usr/lib/python3.6
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Creating New Folders
 
@@ -3396,7 +3419,7 @@ it. To fix this, do:
 
 And all is good :)
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Absolute vs. Relative Paths
 
@@ -3407,7 +3430,7 @@ There are two ways to specify a file path.
 
 There are also the dot (.) and dot-dot (..) folders. These are not real folders but special names that can be used in a path. A single period (“dot”) for a folder name is shorthand for “this directory.” Two periods (“dot-dot”) means “the parent folder.”
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Handling Absolute and Relative Paths
 
@@ -3473,7 +3496,7 @@ Using `pathlib` on \*nix:
 etc/passwd
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Checking Path Validity
 
@@ -3559,7 +3582,7 @@ False
 False
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Finding File Sizes and Folder Contents
 
@@ -3646,7 +3669,7 @@ Using `pathlib` on \*nix:
 1903178911
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Copying Files and Folders
 
@@ -3675,7 +3698,7 @@ While shutil.copy() will copy a single file, shutil.copytree() will copy an enti
 'C:\\bacon_backup'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Moving and Renaming Files and Folders
 
@@ -3699,7 +3722,7 @@ If there is no eggs folder, then move() will rename bacon.txt to a file named eg
 'C:\\eggs'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Permanently Deleting Files and Folders
 
@@ -3709,7 +3732,7 @@ If there is no eggs folder, then move() will rename bacon.txt to a file named eg
 
 - Calling shutil.rmtree(path) will remove the folder at path, and all files and folders it contains will also be deleted.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Safe Deletes with the send2trash Module
 
@@ -3725,7 +3748,7 @@ You can install this module by running pip install send2trash from a Terminal wi
 >>> send2trash.send2trash('bacon.txt')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Walking a Directory Tree
 
@@ -3757,7 +3780,7 @@ The current folder is C:\delicious\walnut\waffles
 FILE INSIDE C:\delicious\walnut\waffles: butter.txt
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 `pathlib` provides a lot more functionality than the ones listed above,
 like getting file name, getting file extension, reading/writing a file without
@@ -3772,7 +3795,7 @@ if you want to know more!
 To read/write to a file in Python, you will want to use the `with`
 statement, which will close the file for you after you are done.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Opening and reading files with the open() function
 
@@ -3801,7 +3824,7 @@ And trouble deaf heaven with my bootless cries,
 And look upon myself and curse my fate,
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Writing to Files
 
@@ -3822,7 +3845,7 @@ Hello world!
 Bacon is not a vegetable.
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Saving Variables with the shelve Module
 
@@ -3856,7 +3879,7 @@ Just like dictionaries, shelf values have keys() and values() methods that will 
 [['Zophie', 'Pooka', 'Simon']]
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Saving Variables with the pprint.pformat() Function
 
@@ -3873,7 +3896,7 @@ Just like dictionaries, shelf values have keys() and values() methods that will 
 83
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Reading ZIP Files
 
@@ -3894,7 +3917,7 @@ Just like dictionaries, shelf values have keys() and values() methods that will 
 'Compressed file is 3.63x smaller!'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Extracting from ZIP Files
 
@@ -3919,7 +3942,7 @@ The extract() method for ZipFile objects will extract a single file from the ZIP
 'C:\\some\\new\\folders\\spam.txt'
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Creating and Adding to ZIP Files
 
@@ -3932,7 +3955,7 @@ The extract() method for ZipFile objects will extract a single file from the ZIP
 
 This code will create a new ZIP file named new.zip that has the compressed contents of spam.txt.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## JSON, YAML and configuration files
 
@@ -3956,7 +3979,7 @@ with open("filename.json", "w") as f:
     f.write(json.dumps(content, indent=2))
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### YAML
 
@@ -3983,7 +4006,7 @@ with open("filename.yaml") as f:
     yaml.load(f)
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Anyconfig
 
@@ -4003,7 +4026,7 @@ import anyconfig
 conf1 = anyconfig.load("/path/to/foo/conf.d/a.yml")
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Debugging
 
@@ -4044,7 +4067,7 @@ for sym, w, h in (('*', 4, 4), ('O', 20, 5), ('x', 1, 3), ('ZZ', 3, 3)):
         print('An exception happened: ' + str(err))
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Getting the Traceback as a String
 
@@ -4069,7 +4092,7 @@ The 116 is the return value from the write() method, since 116 characters were w
       File "<pyshell#28>", line 2, in <module>
     Exception: This is the error message.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Assertions
 
@@ -4101,7 +4124,7 @@ Disabling Assertions
 
 Assertions can be disabled by passing the -O option when running Python.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Logging
 
@@ -4150,7 +4173,7 @@ Say you wrote a function to calculate the factorial of a number. In mathematics,
 2015-05-23 16:20:12,684 - DEBUG - End of program
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Logging Levels
 
@@ -4164,7 +4187,7 @@ Logging levels provide a way to categorize your log messages by importance. Ther
 | `ERROR`    | `logging.error()`    | Used to record an error that caused the program to fail to do something.                                                       |
 | `CRITICAL` | `logging.critical()` | The highest level. Used to indicate a fatal error that has caused or is about to cause the program to stop running entirely.   |
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Disabling Logging
 
@@ -4185,7 +4208,7 @@ After you’ve debugged your program, you probably don’t want all these log me
 >>> logging.error('Error! Error!')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Logging to a File
 
@@ -4197,7 +4220,7 @@ import logging
 logging.basicConfig(filename='myProgramLog.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Lambda Functions
 
@@ -4243,7 +4266,7 @@ Like regular nested functions, lambdas also work as lexical closures:
 
 Note: lambda can only evaluate an expression, like a single line of code.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Ternary Conditional Operator
 
@@ -4281,7 +4304,7 @@ else:
     print('adult')
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## args and kwargs
 
@@ -4380,7 +4403,7 @@ None
 3. Keyword arguments with default values make it easy to add new behaviors to a function, especially when the function has existing callers.
 4. Optional keyword arguments should always be passed by keyword instead of by position.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Context Manager
 
@@ -4424,7 +4447,7 @@ Exit
 >>>
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## `__main__` Top-level script environment
 
@@ -4467,7 +4490,7 @@ For example we are developing script which is designed to be used as module, we 
 3. Python files can act as either reusable modules, or as standalone programs.
 4. if `__name__ == “main”:` is used to execute some code only if the file was run directly, and not imported.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## setup.py
 
@@ -4498,7 +4521,7 @@ Our initial setup.py will also include information about the license and will re
 
 Find more information visit [http://docs.python.org/install/index.html](http://docs.python.org/install/index.html).
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Dataclasses
 
@@ -4537,7 +4560,7 @@ with dataclass
 2
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### Default values
 
@@ -4574,13 +4597,13 @@ It is mandatory to define the data type in dataclass. However, If you don't want
 ...
 ```
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ## Virtual Environment
 
 The use of a Virtual Environment is to test python code in encapsulated environments and to also avoid filling the base Python installation with libraries we might use for only one project.
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### virtualenv
 
@@ -4620,7 +4643,7 @@ Usage:
 
         workon HelloWold
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### poetry
 
@@ -4652,10 +4675,10 @@ Usage:
         version = "0.1.0"
         description = ""
         authors = ["your name <your@mail.com>"]
-    
+        
         [tool.poetry.dependencies]
         python = "*"
-    
+        
         [tool.poetry.dev-dependencies]
         pytest = "^3.4"
 
@@ -4680,7 +4703,7 @@ Usage:
 
 For more information, check the [documentation](https://poetry.eustace.io/docs/).
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### pipenv
 
@@ -4711,7 +4734,7 @@ For more information, check the [documentation](https://poetry.eustace.io/docs/)
 
 Find more information and a video in [docs.pipenv.org](https://docs.pipenv.org/).
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
 
 ### anaconda
 
@@ -4736,4 +4759,4 @@ Usage:
 
         conda deactivate
 
-[_Return to the Top_](#python-cheatsheet)
+[_返回顶部_](#Python 备忘录)
