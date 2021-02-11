@@ -362,22 +362,22 @@ Python 之禅，由Tim Peters编写
 # This is a comment
 ```
 
-Multiline comment:
+多行注释：
 
 ```Python
 # This is a
 # multiline comment
 ```
 
-Code with a comment:
+带注释的代码:
 
 ```python
 a = 1  # initialization
 ```
 
-Please note the two spaces in front of the comment.
+请注意注释签的的两个空格。
 
-Function docstring:
+函数文档字符串：
 
 ```python
 def foo():
@@ -390,7 +390,7 @@ def foo():
 
 [_返回顶部_](#Python 备忘录)
 
-### The print() Function
+### print() 函数
 
 ```python
 >>> print('Hello world!')
@@ -405,9 +405,9 @@ Hello world! 1
 
 [_返回顶部_](#Python 备忘录)
 
-### The input() Function
+### input() 函数
 
-Example Code:
+示例代码:
 
 ```python
 >>> print('What is your name?')   # ask for their name
@@ -420,17 +420,16 @@ It is good to meet you, Al
 
 [_返回顶部_](#Python 备忘录)
 
-### The len() Function
+### len() 函数
 
-Evaluates to the integer value of the number of characters in a string:
+计算出一个字符串中字符数量为整数:
 
 ```python
 >>> len('hello')
 5
 ```
 
-Note: test of emptiness of strings, lists, dictionary, etc, should **not** use len, but prefer direct
-boolean evaluation.
+注意：字符串、列表、字典等是否为空的测试不应当用 len,而应该直接用布尔判断。
 
 ```python
 >>> a = [1, 2, 3]
@@ -440,9 +439,9 @@ boolean evaluation.
 
 [_返回顶部_](#Python 备忘录)
 
-### The str(), int(), and float() Functions
+### str(), int(), 和 float() 函数
 
-Integer to String or Float:
+整数转字符串或浮点型：
 
 ```python
 >>> str(29)
@@ -459,7 +458,7 @@ I am 29 years old.
 '-3.14'
 ```
 
-Float to Integer:
+浮点型转整数：
 
 ```python
 >>> int(7.7)
@@ -473,22 +472,22 @@ Float to Integer:
 
 [_返回顶部_](#Python 备忘录)
 
-## Flow Control
+## 流程控制
 
-### Comparison Operators
+### 比较操作符
 
-| Operator | Meaning                  |
-| -------- | ------------------------ |
-| `==`     | Equal to                 |
-| `!=`     | Not equal to             |
-| `<`      | Less than                |
-| `>`      | Greater Than             |
-| `<=`     | Less than or Equal to    |
-| `>=`     | Greater than or Equal to |
+| 操作符 | 意义       |
+| ------ | ---------- |
+| `==`   | 等于       |
+| `!=`   | 不等于     |
+| `<`    | 小于       |
+| `>`    | 大于       |
+| `<=`   | 小于或等于 |
+| `>=`   | 大于或等于 |
 
-These operators evaluate to True or False depending on the values you give them.
+这些操作结果是True或False依赖于你提供给它们的值。
 
-Examples:
+示例:
 
 ```python
 >>> 42 == 42
@@ -525,12 +524,11 @@ True
 False
 ```
 
-### Boolean evaluation
+### 布尔判断
 
-Never use `==` or `!=` operator to evaluate boolean operation. Use the `is` or `is not` operators,
-or use implicit boolean evaluation.
+绝不要用`==`或`!=`操作布尔判断。用 `is` 或 `is not`操作，或者用隐式布尔判断。
 
-NO (even if they are valid Python):
+NO (即使它们是有效的Python):
 
 ```python
 >>> True == True
@@ -542,7 +540,7 @@ True
 True
 ```
 
-YES (even if they are valid Python):
+YES (即使它们是有效的Python):
 
 ```python
 >>> True is True
@@ -554,7 +552,7 @@ True
 True
 ```
 
-These statements are equivalent:
+这些语句是等效的：
 
 ```Python
 >>> if a is True:
@@ -565,7 +563,7 @@ These statements are equivalent:
 >>>    pass
 ```
 
-And these as well:
+还有这些也一样:
 
 ```Python
 >>> if a is False:
@@ -578,38 +576,38 @@ And these as well:
 
 [_返回顶部_](#Python 备忘录)
 
-### Boolean Operators
+### 布尔操作符
 
-There are three Boolean operators: and, or, and not.
+有三种布尔操作符： and, or, 和 not。
 
-The _and_ Operator’s _Truth_ Table:
+这是and操作符的真值表：
 
-| Expression        | Evaluates to |
-| ----------------- | ------------ |
-| `True and True`   | `True`       |
-| `True and False`  | `False`      |
-| `False and True`  | `False`      |
-| `False and False` | `False`      |
+| 表达式            | 计算结果 |
+| ----------------- | -------- |
+| `True and True`   | `True`   |
+| `True and False`  | `False`  |
+| `False and True`  | `False`  |
+| `False and False` | `False`  |
 
-The _or_ Operator’s _Truth_ Table:
+这是 or 操作符的真值表：
 
-| Expression       | Evaluates to |
-| ---------------- | ------------ |
-| `True or True`   | `True`       |
-| `True or False`  | `True`       |
-| `False or True`  | `True`       |
-| `False or False` | `False`      |
+| 表达式           | 计算结果 |
+| ---------------- | -------- |
+| `True or True`   | `True`   |
+| `True or False`  | `True`   |
+| `False or True`  | `True`   |
+| `False or False` | `False`  |
 
-The _not_ Operator’s _Truth_ Table:
+这是 not 操作符的真值表：
 
-| Expression  | Evaluates to |
-| ----------- | ------------ |
-| `not True`  | `False`      |
-| `not False` | `True`       |
+| 表达式      | 计算结果 |
+| ----------- | -------- |
+| `not True`  | `False`  |
+| `not False` | `True`   |
 
 [_返回顶部_](#Python 备忘录)
 
-### Mixing Boolean and Comparison Operators
+### 混合布尔和比较操作符：
 
 ```python
 >>> (4 < 5) and (5 < 6)
@@ -626,7 +624,7 @@ False
 True
 ```
 
-You can also use multiple Boolean operators in an expression, along with the comparison operators:
+你也可以用多个布尔操作符在一个表达式，连同比较操作符。
 
 ```python
 >>> 2 + 2 == 4 and not 2 + 2 == 5 and 2 * 2 == 2 + 2
@@ -635,7 +633,7 @@ True
 
 [_返回顶部_](#Python 备忘录)
 
-### if Statements
+### if 语句
 
 ```python
 if name == 'Alice':
@@ -644,7 +642,7 @@ if name == 'Alice':
 
 [_返回顶部_](#Python 备忘录)
 
-### else Statements
+### else 语句
 
 ```python
 name = 'Bob'
@@ -656,7 +654,7 @@ else:
 
 [_返回顶部_](#Python 备忘录)
 
-### elif Statements
+### elif 语句
 
 ```python
 name = 'Bob'
@@ -680,7 +678,7 @@ else:
 
 [_返回顶部_](#Python 备忘录)
 
-### while Loop Statements
+### while 循环语句
 
 ```python
 spam = 0
@@ -691,9 +689,9 @@ while spam < 5:
 
 [_返回顶部_](#Python 备忘录)
 
-### break Statements
+### break 语句
 
-If the execution reaches a break statement, it immediately exits the while loop’s clause:
+如果执行到达一个 break 语句，它立即退出这个 while 循环子句：
 
 ```python
 while True:
@@ -706,9 +704,9 @@ print('Thank you!')
 
 [_返回顶部_](#Python 备忘录)
 
-### continue Statements
+### continue 语句
 
-When the program execution reaches a continue statement, the program execution immediately jumps back to the start of the loop.
+当程序执行到达 continue 语句，这个程序执行立即跳回这个循环的开始。
 
 ```python
 while True:
@@ -725,7 +723,7 @@ print('Access granted.')
 
 [_返回顶部_](#Python 备忘录)
 
-### for Loops and the range() Function
+### for 循环和 range() 函数
 
 ```python
 >>> print('My name is')
@@ -739,7 +737,7 @@ Jimmy Five Times (3)
 Jimmy Five Times (4)
 ```
 
-The _range()_ function can also be called with three arguments. The first two arguments will be the start and stop values, and the third will be the step argument. The step is the amount that the variable is increased by after each iteration.
+ _range()_ 函数也能用三个函数调用。开始的两个参数是开始和结束的值，第三个参数是步长。这个步长是每次迭代后变量增加的数量。
 
 ```python
 >>> for i in range(0, 10, 2):
@@ -751,7 +749,7 @@ The _range()_ function can also be called with three arguments. The first two ar
 8
 ```
 
-You can even use a negative number for the step argument to make the for loop count down instead of up.
+你甚至可以用一个负数作为步长使for 循环计数递减而不是递增。
 
 ```python
 >>> for i in range(5, -1, -1):
@@ -764,7 +762,7 @@ You can even use a negative number for the step argument to make the for loop co
 0
 ```
 
-### For else statement
+### For else 语句
 
 This allows to specify a statement to execute in case of the full loop has been executed. Only
 useful when a `break` condition can occur in the loop:
@@ -779,7 +777,7 @@ useful when a `break` condition can occur in the loop:
 
 [_返回顶部_](#Python 备忘录)
 
-### Importing Modules
+### 导入模块
 
 ```python
 import random
