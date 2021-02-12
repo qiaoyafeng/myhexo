@@ -795,7 +795,7 @@ from random import *
 
 [_返回顶部_](#Python 备忘录)
 
-### Ending a Program Early with sys.exit()
+### 使用 sys.exit() 提前结束一个程序
 
 ```python
 import sys
@@ -810,7 +810,7 @@ while True:
 
 [_返回顶部_](#Python 备忘录)
 
-## Functions
+## 函数
 
 ```python
 >>> def hello(name):
@@ -824,13 +824,13 @@ Hello Bob
 
 [_返回顶部_](#Python 备忘录)
 
-### Return Values and return Statements
+### 返回值和返回语句
 
-When creating a function using the def statement, you can specify what the return value should be with a return statement. A return statement consists of the following:
+当用 def 语句创建一个函数，你可以用 return 语句指定一个返回值。 一个 return 语句有下面的内容构成：
 
-- The return keyword.
+- return 关键字。
 
-- The value or expression that the function should return.
+- 这个函数应当返回的值或者表达式。
 
 ```python
 import random
@@ -861,7 +861,7 @@ print(fortune)
 
 [_返回顶部_](#Python 备忘录)
 
-### The None Value
+### 空值
 
 ```python
 >>> spam = print('Hello!')
@@ -877,7 +877,7 @@ Note: never compare to `None` with the `==` operator. Always use `is`.
 
 [_返回顶部_](#Python 备忘录)
 
-### Keyword Arguments and print()
+### 关键字和 print()
 
 ```python
 >>> print('Hello', end='')
@@ -897,21 +897,21 @@ cats,dogs,mice
 
 [_返回顶部_](#Python 备忘录)
 
-### Local and Global Scope
+### 局部和全局范围
 
-- Code in the global scope cannot use any local variables.
+- 全局范围内的代码不能使用任何局部变量。
 
-- However, a local scope can access global variables.
+- 但是，一个局部作用于可以访问全局变量。
 
-- Code in a function’s local scope cannot use variables in any other local scope.
+- 在一个函数的局部作用域的代码不能使用在任何其他局部作用域变量。
 
-- You can use the same name for different variables if they are in different scopes. That is, there can be a local variable named spam and a global variable also named spam.
+- 如果在不同的作用域你可以对不同的变量使用相同的名称。也就是说，可以有一个名为 spam 的局部变量和一个同样名为 spam 的全局变量。
 
 [_返回顶部_](#Python 备忘录)
 
-### The global Statement
+### 一个全局语句
 
-If you need to modify a global variable from within a function, use the global statement:
+如果你需要从一个函数中修改一个全局变量，用 global 语句：
 
 ```python
 >>> def spam():
@@ -924,15 +924,15 @@ If you need to modify a global variable from within a function, use the global s
 spam
 ```
 
-There are four rules to tell whether a variable is in a local scope or global scope:
+有四个规则判断是否一个变量是在局部范围或全局范围：
 
-1. If a variable is being used in the global scope (that is, outside of all functions), then it is always a global variable.
+1. 如果一个变量用在全局范围（即，所有函数外），那么它总是一个全局变量。
 
-1. If there is a global statement for that variable in a function, it is a global variable.
+1. 如果在一个函数中的变量前有 global 语句，它是一个全局变量。
 
-1. Otherwise, if the variable is used in an assignment statement in the function, it is a local variable.
+1. 否则，如果在函数中变量用来作为赋值语句，它是一个局部变量。
 
-1. But if the variable is not used in an assignment statement, it is a global variable.
+1. 但是如果变量未在赋值语句中使用，它是一个全局变量。
 
 [_返回顶部_](#Python 备忘录)
 
