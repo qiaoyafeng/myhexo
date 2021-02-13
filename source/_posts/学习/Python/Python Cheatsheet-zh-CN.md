@@ -936,9 +936,9 @@ spam
 
 [_返回顶部_](#Python 备忘录)
 
-## Exception Handling
+## 异常处理
 
-### Basic exception handling
+### 基本异常处理
 
 ```python
 >>> def spam(divideBy):
@@ -960,10 +960,9 @@ None
 
 [_返回顶部_](#Python 备忘录)
 
-### Final code in exception handling
+### 异常处理中的最终代码
 
-Code inside the `finally` section is always executed, no matter if an exception has been raised or
-not, and even if an exception is not caught.
+在 `finally` 区间的代码总是被执行，无论是否异常被抛出，即使未捕获到异常。
 
 ```python
 >>> def spam(divideBy):
