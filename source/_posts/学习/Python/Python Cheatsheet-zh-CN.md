@@ -989,7 +989,7 @@ None
 
 [_返回顶部_](#Python 备忘录)
 
-## Lists
+## 列表
 
 ```python
 >>> spam = ['cat', 'bat', 'rat', 'elephant']
@@ -1000,7 +1000,7 @@ None
 
 [_返回顶部_](#Python 备忘录)
 
-### Getting Individual Values in a List with Indexes
+### 在带有索引的列表中获取特定的值
 
 ```python
 >>> spam = ['cat', 'bat', 'rat', 'elephant']
@@ -1025,7 +1025,7 @@ None
 
 [_返回顶部_](#Python 备忘录)
 
-### Negative Indexes
+### 负数的索引
 
 ```python
 >>> spam = ['cat', 'bat', 'rat', 'elephant']
@@ -1045,7 +1045,7 @@ None
 
 [_返回顶部_](#Python 备忘录)
 
-### Getting Sublists with Slices
+### 以切片的方获取子列表
 
 ```python
 >>> spam = ['cat', 'bat', 'rat', 'elephant']
@@ -1074,7 +1074,7 @@ None
 ['bat', 'rat', 'elephant']
 ```
 
-Slicing the complete list will perform a copy:
+切片完整列表将执行复制：
 
 ```python
 >>> spam2 = spam[:]
@@ -1088,7 +1088,7 @@ Slicing the complete list will perform a copy:
 
 [_返回顶部_](#Python 备忘录)
 
-### Getting a List’s Length with len()
+### 用 len() 获取列表的长度 
 
 ```python
 >>> spam = ['cat', 'dog', 'moose']
@@ -1098,7 +1098,7 @@ Slicing the complete list will perform a copy:
 
 [_返回顶部_](#Python 备忘录)
 
-### Changing Values in a List with Indexes
+### 用索引改变列表中的值
 
 ```python
 >>> spam = ['cat', 'bat', 'rat', 'elephant']
