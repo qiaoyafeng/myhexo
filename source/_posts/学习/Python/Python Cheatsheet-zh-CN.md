@@ -1120,7 +1120,7 @@ None
 
 [_返回顶部_](#Python 备忘录)
 
-### List Concatenation and List Replication
+### 列表连接和列表复制
 
 ```python
 >>> [1, 2, 3] + ['A', 'B', 'C']
@@ -1139,7 +1139,7 @@ None
 
 [_返回顶部_](#Python 备忘录)
 
-### Removing Values from Lists with del Statements
+### 用 del 语句移除列表中的值
 
 ```python
 >>> spam = ['cat', 'bat', 'rat', 'elephant']
@@ -1156,7 +1156,7 @@ None
 
 [_返回顶部_](#Python 备忘录)
 
-### Using for Loops with Lists
+### 用 for 循环列表
 
 ```python
 >>> supplies = ['pens', 'staplers', 'flame-throwers', 'binders']
