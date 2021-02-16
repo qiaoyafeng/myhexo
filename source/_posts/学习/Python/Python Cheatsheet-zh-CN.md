@@ -1170,7 +1170,7 @@ Index 3 in supplies is: binders
 
 [_返回顶部_](#Python 备忘录)
 
-### Looping Through Multiple Lists with zip()
+### 使用 zip() 遍历多个列表
 
 ```python
 >>> name = ['Pete', 'John', 'Elizabeth']
@@ -1182,7 +1182,7 @@ John is 23 years old
 Elizabeth is 44 years old
 ```
 
-### The in and not in Operators
+### in 和 not in 操作符
 
 ```python
 >>> 'howdy' in ['hello', 'hi', 'howdy', 'heyas']
@@ -1207,9 +1207,9 @@ True
 
 [_返回顶部_](#Python 备忘录)
 
-### The Multiple Assignment Trick
+### 多重赋值技巧
 
-The multiple assignment trick is a shortcut that lets you assign multiple variables with the values in a list in one line of code. So instead of doing this:
+多重赋值是一种快捷方式，可让您在一行代码中为多个变量分配列表中的值。因此，不要这样做：
 
 ```python
 >>> cat = ['fat', 'orange', 'loud']
@@ -1221,7 +1221,7 @@ The multiple assignment trick is a shortcut that lets you assign multiple variab
 >>> disposition = cat[2]
 ```
 
-You could type this line of code:
+你可以输入以下代码行：
 
 ```python
 >>> cat = ['fat', 'orange', 'loud']
@@ -1229,7 +1229,7 @@ You could type this line of code:
 >>> size, color, disposition = cat
 ```
 
-The multiple assignment trick can also be used to swap the values in two variables:
+多重赋值技巧也可以用来交换两个变量的值：
 
 ```python
 >>> a, b = 'Alice', 'Bob'
@@ -1245,9 +1245,9 @@ The multiple assignment trick can also be used to swap the values in two variabl
 
 [_返回顶部_](#Python 备忘录)
 
-### Augmented Assignment Operators
+### 增强赋值操作符
 
-| Operator    | Equivalent        |
+| 操作符      | 相当于            |
 | ----------- | ----------------- |
 | `spam += 1` | `spam = spam + 1` |
 | `spam -= 1` | `spam = spam - 1` |
@@ -1255,7 +1255,7 @@ The multiple assignment trick can also be used to swap the values in two variabl
 | `spam /= 1` | `spam = spam / 1` |
 | `spam %= 1` | `spam = spam % 1` |
 
-Examples:
+示例：
 
 ```python
 >>> spam = 'Hello'
@@ -1271,7 +1271,7 @@ Examples:
 
 [_返回顶部_](#Python 备忘录)
 
-### Finding a Value in a List with the index() Method
+### 使用 index() 方法在列表中查找值
 
 ```python
 >>> spam = ['Zophie', 'Pooka', 'Fat-tail', 'Pooka']
@@ -1282,7 +1282,7 @@ Examples:
 
 [_返回顶部_](#Python 备忘录)
 
-### Adding Values to Lists with the append() and insert() Methods
+### 使用 append() 和 insert() 方法在列表中添加值
 
 **append()**:
 
@@ -1308,7 +1308,7 @@ Examples:
 
 [_返回顶部_](#Python 备忘录)
 
-### Removing Values from Lists with remove()
+### 使用 remove() 从列表中移除值
 
 ```python
 >>> spam = ['cat', 'bat', 'rat', 'elephant']
@@ -1319,12 +1319,12 @@ Examples:
 ['cat', 'rat', 'elephant']
 ```
 
-If the value appears multiple times in the list, only the first instance of the value will be removed.
+如果该值在列表中出现多次，则只会删除该值的第一个实例。
 
 [_返回顶部_](#Python 备忘录)
 
 
-### Removing Values from Lists with pop()
+### 使用 pop() 移除列表中的值
 
 ```python
 >>> spam = ['cat', 'bat', 'rat', 'elephant']
@@ -1344,7 +1344,7 @@ If the value appears multiple times in the list, only the first instance of the 
 
 [_返回顶部_](#Python 备忘录)
 
-### Sorting the Values in a List with the sort() Method
+### 使用 sort() 方法排序列表中的值
 
 ```python
 >>> spam = [2, 5, 3.14, 1, -7]
@@ -1360,7 +1360,7 @@ If the value appears multiple times in the list, only the first instance of the 
 ['ants', 'badgers', 'cats', 'dogs', 'elephants']
 ```
 
-You can also pass True for the reverse keyword argument to have sort() sort the values in reverse order:
+你也可以为 reverse 关键字参数传递 True，以使 sort() 以相反的顺序对值进行排序：
 
 ```python
 >>> spam.sort(reverse=True)
@@ -1368,7 +1368,7 @@ You can also pass True for the reverse keyword argument to have sort() sort the 
 ['elephants', 'dogs', 'cats', 'badgers', 'ants']
 ```
 
-If you need to sort the values in regular alphabetical order, pass str. lower for the key keyword argument in the sort() method call:
+如果你需要以常规字母顺序对值进行排序，请在 sort() 方法传递 str.lower 关键字参数来调用：
 
 ```python
 >>> spam = ['a', 'z', 'A', 'Z']
@@ -1377,7 +1377,7 @@ If you need to sort the values in regular alphabetical order, pass str. lower fo
 ['a', 'A', 'z', 'Z']
 ```
 
-You can use the built-in function `sorted` to return a new list:
+您可以使用内置函数 `sorted` 去返回一个新列表：
 
 ```python
 >>> spam = ['ants', 'cats', 'dogs', 'badgers', 'elephants']
