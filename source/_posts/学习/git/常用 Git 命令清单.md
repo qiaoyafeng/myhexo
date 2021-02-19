@@ -18,6 +18,8 @@ tags:
  - Repository：仓库区（或本地仓库） 
  - Remote：远程仓库
 
+![](git.png)
+
  <!-- more -->
 
 ## 一、新建代码库
