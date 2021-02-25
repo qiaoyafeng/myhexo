@@ -15,8 +15,13 @@ tags:
 
 衡量是否掌握一门语言，最终是要看他运用如何，而不是懂多少。学习语言和学习乐器十分相似。学生做的操练和练习都是为了达到一个明确的目标：使他成为一个熟练的操作者。一个学生学了许多语法知识却不会运用语言，就像弹钢琴的学了许多关于和声的知识却不会弹钢琴一样。因此衡量学生是否掌握语言并不看他懂了多少，而要看他在众人面前语言运用的如何。
 
+--------
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=430 height=86 src="about.mp3"></iframe>
+
+<audio controls>
+  <source src="about.mp3" type="audio/mpeg">
+  您的浏览器不支持 audio 元素。
+</audio>
 
 
 
