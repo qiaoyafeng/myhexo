@@ -597,27 +597,27 @@ header .go-back i {
 
     0%,
     100% {
-        background: rgba(10, 39, 176, 0.75);
+        background: rgba(10, 39, 176, 0.55);
     }
 
     16% {
-        background: rgba(10, 13, 121, 0.75);
+        background: rgba(10, 13, 121, 0.55);
     }
 
     32% {
-        background: rgba(10, 83, 80, 0.75);
+        background: rgba(10, 83, 80, 0.55);
     }
 
     48% {
-        background: rgba(10, 87, 34, 0.75);
+        background: rgba(10, 87, 34, 0.55);
     }
 
     64% {
-        background: rgba(10, 160, 0, 0.75);
+        background: rgba(10, 160, 0, 0.55);
     }
 
     80% {
-        background: rgba(10, 30, 99, 0.75);
+        background: rgba(10, 30, 99, 0.55);
     }
 }
 
@@ -625,27 +625,27 @@ header .go-back i {
 
     0%,
     100% {
-        background: rgba(10, 39, 176, 0.75);
+        background: rgba(10, 39, 176, 0.55);
     }
 
     16% {
-        background: rgba(10, 13, 121, 0.75);
+        background: rgba(10, 13, 121, 0.55);
     }
 
     32% {
-        background: rgba(10, 83, 80, 0.75);
+        background: rgba(10, 83, 80, 0.55);
     }
 
     48% {
-        background: rgba(10, 87, 34, 0.75);
+        background: rgba(10, 87, 34, 0.55);
     }
 
     64% {
-        background: rgba(10, 160, 0, 0.75);
+        background: rgba(10, 160, 0, 0.55);
     }
 
     80% {
-        background: rgba(10, 30, 99, 0.75);
+        background: rgba(10, 30, 99, 0.55);
     }
 }
 
