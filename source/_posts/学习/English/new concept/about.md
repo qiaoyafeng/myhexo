@@ -24,4 +24,14 @@ tags:
 </audio>
 
 
+-------------------
+
+<audio controls>
+  <source src={% asset_path about.mp3 %} type="audio/mpeg">
+  您的浏览器不支持 audio 元素。
+</audio>
+
+
+
+
 
