@@ -446,21 +446,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-03-02
+                    2021-03-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-03-02
+                    2021-03-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    18.7k
+                    18.8k
                 </div>
                 
 
@@ -1536,26 +1536,26 @@ Elizabeth <span class="token keyword">is</span> <span class="token number">44</s
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token builtin">sorted</span><span class="token punctuation">(</span>spam<span class="token punctuation">)</span>
 <span class="token punctuation">[</span><span class="token string">'ants'</span><span class="token punctuation">,</span> <span class="token string">'badgers'</span><span class="token punctuation">,</span> <span class="token string">'cats'</span><span class="token punctuation">,</span> <span class="token string">'dogs'</span><span class="token punctuation">,</span> <span class="token string">'elephants'</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <p>[_返回顶部_](#Python 备忘录)</p>
-<h3 id="Tuple-Data-Type"><a href="#Tuple-Data-Type" class="headerlink" title="Tuple Data Type"></a>Tuple Data Type</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> eggs <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">,</span> <span class="token number">42</span><span class="token punctuation">,</span> <span class="token number">0.5</span><span class="token punctuation">)</span>
+<h3 id="元组数据类型"><a href="#元组数据类型" class="headerlink" title="元组数据类型"></a>元组数据类型</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> eggs <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">,</span> <span class="token number">42</span><span class="token punctuation">,</span> <span class="token number">0.5</span><span class="token punctuation">)</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> eggs<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
 <span class="token string">'hello'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> eggs<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token number">3</span><span class="token punctuation">]</span>
 <span class="token punctuation">(</span><span class="token number">42</span><span class="token punctuation">,</span> <span class="token number">0.5</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token builtin">len</span><span class="token punctuation">(</span>eggs<span class="token punctuation">)</span>
 <span class="token number">3</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<p>The main way that tuples are different from lists is that tuples, like strings, are immutable.</p>
+<p>元组和列表不同的主要方式是元组像字符串一样，不可变。</p>
 <p>[_返回顶部_](#Python 备忘录)</p>
-<h3 id="Converting-Types-with-the-list-and-tuple-Functions"><a href="#Converting-Types-with-the-list-and-tuple-Functions" class="headerlink" title="Converting Types with the list() and tuple() Functions"></a>Converting Types with the list() and tuple() Functions</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token builtin">tuple</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'cat'</span><span class="token punctuation">,</span> <span class="token string">'dog'</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<h3 id="使用-list-和-tuple-函数转变类型"><a href="#使用-list-和-tuple-函数转变类型" class="headerlink" title="使用 list() 和 tuple() 函数转变类型"></a>使用 list() 和 tuple() 函数转变类型</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token builtin">tuple</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'cat'</span><span class="token punctuation">,</span> <span class="token string">'dog'</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
 <span class="token punctuation">(</span><span class="token string">'cat'</span><span class="token punctuation">,</span> <span class="token string">'dog'</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token builtin">list</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token string">'cat'</span><span class="token punctuation">,</span> <span class="token string">'dog'</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
 <span class="token punctuation">[</span><span class="token string">'cat'</span><span class="token punctuation">,</span> <span class="token string">'dog'</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token builtin">list</span><span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">)</span>
 <span class="token punctuation">[</span><span class="token string">'h'</span><span class="token punctuation">,</span> <span class="token string">'e'</span><span class="token punctuation">,</span> <span class="token string">'l'</span><span class="token punctuation">,</span> <span class="token string">'l'</span><span class="token punctuation">,</span> <span class="token string">'o'</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>[_返回顶部_](#Python 备忘录)</p>
-<h2 id="Dictionaries-and-Structuring-Data"><a href="#Dictionaries-and-Structuring-Data" class="headerlink" title="Dictionaries and Structuring Data"></a>Dictionaries and Structuring Data</h2><p>Example Dictionary:</p>
+<h2 id="字典和结构化数据"><a href="#字典和结构化数据" class="headerlink" title="字典和结构化数据"></a>字典和结构化数据</h2><p>字典示例:</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python">myCat <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'size'</span><span class="token punctuation">:</span> <span class="token string">'fat'</span><span class="token punctuation">,</span> <span class="token string">'color'</span><span class="token punctuation">:</span> <span class="token string">'gray'</span><span class="token punctuation">,</span> <span class="token string">'disposition'</span><span class="token punctuation">:</span> <span class="token string">'loud'</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>[_返回顶部_](#Python 备忘录)</p>
-<h3 id="The-keys-values-and-items-Methods"><a href="#The-keys-values-and-items-Methods" class="headerlink" title="The keys(), values(), and items() Methods"></a>The keys(), values(), and items() Methods</h3><p>values():</p>
+<h3 id="keys-values-和-items-方法"><a href="#keys-values-和-items-方法" class="headerlink" title="keys(), values() 和 items() 方法"></a>keys(), values() 和 items() 方法</h3><p>values():</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> spam <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'color'</span><span class="token punctuation">:</span> <span class="token string">'red'</span><span class="token punctuation">,</span> <span class="token string">'age'</span><span class="token punctuation">:</span> <span class="token number">42</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token keyword">for</span> v <span class="token keyword">in</span> spam<span class="token punctuation">.</span>values<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span>     <span class="token keyword">print</span><span class="token punctuation">(</span>v<span class="token punctuation">)</span>
@@ -1571,7 +1571,7 @@ age<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span>     <span class="token keyword">print</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span>
 <span class="token punctuation">(</span><span class="token string">'color'</span><span class="token punctuation">,</span> <span class="token string">'red'</span><span class="token punctuation">)</span>
 <span class="token punctuation">(</span><span class="token string">'age'</span><span class="token punctuation">,</span> <span class="token number">42</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<p>Using the keys(), values(), and items() methods, a for loop can iterate over the keys, values, or key-value pairs in a dictionary, respectively.</p>
+<p>使用 keys(), values() 和 items() 方法, for循环可以分别遍历字典中的键, 值 或者 键值对。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python">
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> spam <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'color'</span><span class="token punctuation">:</span> <span class="token string">'red'</span><span class="token punctuation">,</span> <span class="token string">'age'</span><span class="token punctuation">:</span> <span class="token number">42</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span>
@@ -1580,7 +1580,7 @@ age<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span>
 Key<span class="token punctuation">:</span> age Value<span class="token punctuation">:</span> <span class="token number">42</span>
 Key<span class="token punctuation">:</span> color Value<span class="token punctuation">:</span> red<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>[_返回顶部_](#Python 备忘录)</p>
-<h3 id="Checking-Whether-a-Key-or-Value-Exists-in-a-Dictionary"><a href="#Checking-Whether-a-Key-or-Value-Exists-in-a-Dictionary" class="headerlink" title="Checking Whether a Key or Value Exists in a Dictionary"></a>Checking Whether a Key or Value Exists in a Dictionary</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> spam <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'name'</span><span class="token punctuation">:</span> <span class="token string">'Zophie'</span><span class="token punctuation">,</span> <span class="token string">'age'</span><span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="检查字典中是否存在键或值"><a href="#检查字典中是否存在键或值" class="headerlink" title="检查字典中是否存在键或值"></a>检查字典中是否存在键或值</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> spam <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'name'</span><span class="token punctuation">:</span> <span class="token string">'Zophie'</span><span class="token punctuation">,</span> <span class="token string">'age'</span><span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token string">'name'</span> <span class="token keyword">in</span> spam<span class="token punctuation">.</span>keys<span class="token punctuation">(</span><span class="token punctuation">)</span>
 <span class="token boolean">True</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token string">'Zophie'</span> <span class="token keyword">in</span> spam<span class="token punctuation">.</span>values<span class="token punctuation">(</span><span class="token punctuation">)</span>
@@ -1591,7 +1591,7 @@ Key<span class="token punctuation">:</span> color Value<span class="token punctu
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token string">'color'</span> <span class="token keyword">not</span> <span class="token keyword">in</span> spam
 <span class="token boolean">True</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>[_返回顶部_](#Python 备忘录)</p>
-<h3 id="The-get-Method"><a href="#The-get-Method" class="headerlink" title="The get() Method"></a>The get() Method</h3><p>Get has two parameters: key and default value if the key did not exist</p>
+<h3 id="get-方法"><a href="#get-方法" class="headerlink" title="get() 方法"></a>get() 方法</h3><p>获取具有两个参数：键和默认值（如果键不存在）</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> picnic_items <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'apples'</span><span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token string">'cups'</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">}</span>
 
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token string">'I am bringing {} cups.'</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">(</span>picnic_items<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">'cups'</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
@@ -1599,12 +1599,12 @@ Key<span class="token punctuation">:</span> color Value<span class="token punctu
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token string">'I am bringing {} eggs.'</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">(</span>picnic_items<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">'eggs'</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
 <span class="token string">'I am bringing 0 eggs.'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>[_返回顶部_](#Python 备忘录)</p>
-<h3 id="The-setdefault-Method"><a href="#The-setdefault-Method" class="headerlink" title="The setdefault() Method"></a>The setdefault() Method</h3><p>Let’s consider this code:</p>
+<h3 id="setdefault-方法"><a href="#setdefault-方法" class="headerlink" title="setdefault() 方法"></a>setdefault() 方法</h3><p>让我们考虑下面的代码:</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python">spam <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'name'</span><span class="token punctuation">:</span> <span class="token string">'Pooka'</span><span class="token punctuation">,</span> <span class="token string">'age'</span><span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">}</span>
 
 <span class="token keyword">if</span> <span class="token string">'color'</span> <span class="token keyword">not</span> <span class="token keyword">in</span> spam<span class="token punctuation">:</span>
     spam<span class="token punctuation">[</span><span class="token string">'color'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'black'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<p>Using <code>setdefault</code> we could write the same code more succinctly:</p>
+<p>用<code>setdefault</code> 我们能更简洁地写出同样的代码:</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> spam <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'name'</span><span class="token punctuation">:</span> <span class="token string">'Pooka'</span><span class="token punctuation">,</span> <span class="token string">'age'</span><span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> spam<span class="token punctuation">.</span>setdefault<span class="token punctuation">(</span><span class="token string">'color'</span><span class="token punctuation">,</span> <span class="token string">'black'</span><span class="token punctuation">)</span>
 <span class="token string">'black'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
@@ -3619,7 +3619,7 @@ Python
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/02/xue-xi/python/python-cheatsheet-zh-cn/">https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/02/xue-xi/python/python-cheatsheet-zh-cn/</a>
+                    <a href="https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/03/xue-xi/python/python-cheatsheet-zh-cn/">https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/03/xue-xi/python/python-cheatsheet-zh-cn/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -4091,7 +4091,7 @@ Python
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/myhexo/2021/03/02/xue-xi/python/python-cheatsheet/">
+                <a href="/myhexo/2021/03/03/xue-xi/python/python-cheatsheet/">
                     <div class="card-image">
                         
                         
@@ -4108,7 +4108,7 @@ Python
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-02
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-03
                         </span>
                         <span class="publish-author">
                             
