@@ -1387,7 +1387,7 @@ True
 
 [_返回顶部_](#Python 备忘录)
 
-### Tuple Data Type
+### 元组数据类型
 
 ```python
 >>> eggs = ('hello', 42, 0.5)
@@ -1405,11 +1405,11 @@ True
 3
 ```
 
-The main way that tuples are different from lists is that tuples, like strings, are immutable.
+元组和列表不同的主要方式是元组像字符串一样，不可变。
 
 [_返回顶部_](#Python 备忘录)
 
-### Converting Types with the list() and tuple() Functions
+### 使用 list() 和 tuple() 函数转变类型
 
 ```python
 >>> tuple(['cat', 'dog', 5])
@@ -1428,9 +1428,9 @@ The main way that tuples are different from lists is that tuples, like strings, 
 
 [_返回顶部_](#Python 备忘录)
 
-## Dictionaries and Structuring Data
+## 字典和结构化数据
 
-Example Dictionary:
+字典示例:
 
 ```python
 myCat = {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
@@ -1438,7 +1438,7 @@ myCat = {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
 
 [_返回顶部_](#Python 备忘录)
 
-### The keys(), values(), and items() Methods
+###  keys(), values() 和 items() 方法
 
 values():
 
@@ -1468,7 +1468,7 @@ items():
 ('age', 42)
 ```
 
-Using the keys(), values(), and items() methods, a for loop can iterate over the keys, values, or key-value pairs in a dictionary, respectively.
+使用 keys(), values() 和 items() 方法, for循环可以分别遍历字典中的键, 值 或者 键值对。
 
 ```python
 
@@ -1482,7 +1482,7 @@ Key: color Value: red
 
 [_返回顶部_](#Python 备忘录)
 
-### Checking Whether a Key or Value Exists in a Dictionary
+### 检查字典中是否存在键或值
 
 ```python
 >>> spam = {'name': 'Zophie', 'age': 7}
@@ -1511,9 +1511,9 @@ True
 
 [_返回顶部_](#Python 备忘录)
 
-### The get() Method
+### get() 方法
 
-Get has two parameters: key and default value if the key did not exist
+获取具有两个参数：键和默认值（如果键不存在）
 
 ```python
 >>> picnic_items = {'apples': 5, 'cups': 2}
@@ -1529,9 +1529,9 @@ Get has two parameters: key and default value if the key did not exist
 
 [_返回顶部_](#Python 备忘录)
 
-### The setdefault() Method
+### setdefault() 方法
 
-Let's consider this code:
+让我们考虑下面的代码:
 
 ```python
 spam = {'name': 'Pooka', 'age': 5}
@@ -1540,7 +1540,7 @@ if 'color' not in spam:
     spam['color'] = 'black'
 ```
 
-Using `setdefault` we could write the same code more succinctly:
+用`setdefault` 我们能更简洁地写出同样的代码:
 
 ```python
 >>> spam = {'name': 'Pooka', 'age': 5}
