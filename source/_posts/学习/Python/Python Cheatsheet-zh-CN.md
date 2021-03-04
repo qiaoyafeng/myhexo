@@ -1565,7 +1565,7 @@ if 'color' not in spam:
 
 [_返回顶部_](#Python 备忘录)
 
-### Pretty Printing
+### 漂亮的打印
 
 ```python
 >>> import pprint
@@ -1606,7 +1606,7 @@ if 'color' not in spam:
 
 [_返回顶部_](#Python 备忘录)
 
-### Merge two dictionaries
+### 合并两个字典
 
 ```python
 # in Python 3.5+:
@@ -1622,22 +1622,22 @@ if 'color' not in spam:
 {'c': 4, 'a': 1, 'b': 3}
 ```
 
-## sets
+## 集合sets
 
-From the Python 3 [documentation](https://docs.python.org/3/tutorial/datastructures.html)
+来自 Python 3 [文档](https://docs.python.org/3/tutorial/datastructures.html)
 
-> A set is an unordered collection with no duplicate elements. Basic uses include membership testing and eliminating duplicate entries. Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
+> 集合是由不重复的元素组成的无序容器。基本用法包括成员检测和去除重复元素。集合对象也支持像合集，交集和差集对等差数学运算。
 
-### Initializing a set
+### 初始化一个集合
 
-There are two ways to create sets: using curly braces `{}` and the built-in function `set()`
+有两种方式创建集合：用花括号 `{}` 和内置函数 `set()`
 
 ```python
 >>> s = {1, 2, 3}
 >>> s = set([1, 2, 3])
 ```
 
-When creating an empty set, be sure to not use the curly braces `{}` or you will get an empty dictionary instead.
+当创建一个空集合，确保不要使用大花括号 `{}` 否则你将得到一个空的字典。
 
 ```python
 >>> s = {}
@@ -1645,9 +1645,9 @@ When creating an empty set, be sure to not use the curly braces `{}` or you will
 <class 'dict'>
 ```
 
-### sets: unordered collections of unique elements
+### sets: 独特元素的无需结合。
 
-A set automatically remove all the duplicate values.
+一个集合自动移除所有重复的值。
 
 ```python
 >>> s = {1, 2, 3, 2, 3, 4}
@@ -1655,7 +1655,7 @@ A set automatically remove all the duplicate values.
 {1, 2, 3, 4}
 ```
 
-And as an unordered data type, they can't be indexed.
+作为一个无序的数据类型，他们不能被索引。
 
 ```python
 >>> s = {1, 2, 3}
@@ -1666,9 +1666,9 @@ TypeError: 'set' object does not support indexing
 >>>
 ```
 
-### set add() and update()
+### set add() 和update()
 
-Using the `add()` method we can add a single element to the set.
+用 `add()` 方法我们能增加一个元素到集合中。
 
 ```python
 >>> s = {1, 2, 3}
@@ -1677,7 +1677,7 @@ Using the `add()` method we can add a single element to the set.
 {1, 2, 3, 4}
 ```
 
-And with `update()`, multiple ones .
+用 `update()`, 更新多个元素。
 
 ```python
 >>> s = {1, 2, 3}
