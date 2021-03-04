@@ -446,21 +446,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-03-03
+                    2021-03-04
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-03-03
+                    2021-03-04
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    18.8k
+                    18.9k
                 </div>
                 
 
@@ -1615,7 +1615,7 @@ Key<span class="token punctuation">:</span> color Value<span class="token punctu
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> spam
 <span class="token punctuation">{</span><span class="token string">'color'</span><span class="token punctuation">:</span> <span class="token string">'black'</span><span class="token punctuation">,</span> <span class="token string">'age'</span><span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token string">'name'</span><span class="token punctuation">:</span> <span class="token string">'Pooka'</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>[_返回顶部_](#Python 备忘录)</p>
-<h3 id="Pretty-Printing"><a href="#Pretty-Printing" class="headerlink" title="Pretty Printing"></a>Pretty Printing</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token keyword">import</span> pprint
+<h3 id="漂亮的打印"><a href="#漂亮的打印" class="headerlink" title="漂亮的打印"></a>漂亮的打印</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token keyword">import</span> pprint
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> message <span class="token operator">=</span> 'It was a bright cold day <span class="token keyword">in</span> April<span class="token punctuation">,</span> <span class="token keyword">and</span> the clocks were striking
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> thirteen<span class="token punctuation">.</span>'
@@ -1650,7 +1650,7 @@ Key<span class="token punctuation">:</span> color Value<span class="token punctu
  <span class="token string">'w'</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
  <span class="token string">'y'</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>[_返回顶部_](#Python 备忘录)</p>
-<h3 id="Merge-two-dictionaries"><a href="#Merge-two-dictionaries" class="headerlink" title="Merge two dictionaries"></a>Merge two dictionaries</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># in Python 3.5+:</span>
+<h3 id="合并两个字典"><a href="#合并两个字典" class="headerlink" title="合并两个字典"></a>合并两个字典</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># in Python 3.5+:</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> x <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'a'</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token string">'b'</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> y <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'b'</span><span class="token punctuation">:</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token string">'c'</span><span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> z <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token operator">**</span>x<span class="token punctuation">,</span> <span class="token operator">**</span>y<span class="token punctuation">}</span>
@@ -1661,34 +1661,34 @@ Key<span class="token punctuation">:</span> color Value<span class="token punctu
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> z <span class="token operator">=</span> <span class="token builtin">dict</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> <span class="token operator">**</span>y<span class="token punctuation">)</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> z
 <span class="token punctuation">{</span><span class="token string">'c'</span><span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token string">'a'</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token string">'b'</span><span class="token punctuation">:</span> <span class="token number">3</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="sets"><a href="#sets" class="headerlink" title="sets"></a>sets</h2><p>From the Python 3 <a target="_blank" rel="noopener" href="https://docs.python.org/3/tutorial/datastructures.html">documentation</a></p>
+<h2 id="集合sets"><a href="#集合sets" class="headerlink" title="集合sets"></a>集合sets</h2><p>来自 Python 3 <a target="_blank" rel="noopener" href="https://docs.python.org/3/tutorial/datastructures.html">文档</a></p>
 <blockquote>
-<p>A set is an unordered collection with no duplicate elements. Basic uses include membership testing and eliminating duplicate entries. Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.</p>
+<p>集合是由不重复的元素组成的无序容器。基本用法包括成员检测和去除重复元素。集合对象也支持像合集，交集和差集对等差数学运算。</p>
 </blockquote>
-<h3 id="Initializing-a-set"><a href="#Initializing-a-set" class="headerlink" title="Initializing a set"></a>Initializing a set</h3><p>There are two ways to create sets: using curly braces <code>{}</code> and the built-in function <code>set()</code></p>
+<h3 id="初始化一个集合"><a href="#初始化一个集合" class="headerlink" title="初始化一个集合"></a>初始化一个集合</h3><p>有两种方式创建集合：用花括号 <code>{}</code> 和内置函数 <code>set()</code></p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s <span class="token operator">=</span> <span class="token builtin">set</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<p>When creating an empty set, be sure to not use the curly braces <code>{}</code> or you will get an empty dictionary instead.</p>
+<p>当创建一个空集合，确保不要使用大花括号 <code>{}</code> 否则你将得到一个空的字典。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token builtin">type</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span>
 <span class="token operator">&lt;</span><span class="token keyword">class</span> <span class="token string">'dict'</span><span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h3 id="sets-unordered-collections-of-unique-elements"><a href="#sets-unordered-collections-of-unique-elements" class="headerlink" title="sets: unordered collections of unique elements"></a>sets: unordered collections of unique elements</h3><p>A set automatically remove all the duplicate values.</p>
+<h3 id="sets-独特元素的无需结合。"><a href="#sets-独特元素的无需结合。" class="headerlink" title="sets: 独特元素的无需结合。"></a>sets: 独特元素的无需结合。</h3><p>一个集合自动移除所有重复的值。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s
 <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<p>And as an unordered data type, they can’t be indexed.</p>
+<p>作为一个无序的数据类型，他们不能被索引。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
 Traceback <span class="token punctuation">(</span>most recent call last<span class="token punctuation">)</span><span class="token punctuation">:</span>
   File <span class="token string">"&lt;stdin&gt;"</span><span class="token punctuation">,</span> line <span class="token number">1</span><span class="token punctuation">,</span> <span class="token keyword">in</span> <span class="token operator">&lt;</span>module<span class="token operator">&gt;</span>
 TypeError<span class="token punctuation">:</span> <span class="token string">'set'</span> <span class="token builtin">object</span> does <span class="token keyword">not</span> support indexing
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="set-add-and-update"><a href="#set-add-and-update" class="headerlink" title="set add() and update()"></a>set add() and update()</h3><p>Using the <code>add()</code> method we can add a single element to the set.</p>
+<h3 id="set-add-和update"><a href="#set-add-和update" class="headerlink" title="set add() 和update()"></a>set add() 和update()</h3><p>用 <code>add()</code> 方法我们能增加一个元素到集合中。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s<span class="token punctuation">.</span>add<span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s
 <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<p>And with <code>update()</code>, multiple ones .</p>
+<p>用 <code>update()</code>, 更新多个元素。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s<span class="token punctuation">.</span>update<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s
@@ -3619,7 +3619,7 @@ Python
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/03/xue-xi/python/python-cheatsheet-zh-cn/">https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/03/xue-xi/python/python-cheatsheet-zh-cn/</a>
+                    <a href="https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/04/xue-xi/python/python-cheatsheet-zh-cn/">https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/04/xue-xi/python/python-cheatsheet-zh-cn/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -4091,7 +4091,7 @@ Python
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/myhexo/2021/03/03/xue-xi/python/python-cheatsheet/">
+                <a href="/myhexo/2021/03/04/xue-xi/python/python-cheatsheet/">
                     <div class="card-image">
                         
                         
@@ -4108,7 +4108,7 @@ Python
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-03
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-04
                         </span>
                         <span class="publish-author">
                             
