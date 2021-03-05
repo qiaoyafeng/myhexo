@@ -1666,7 +1666,7 @@ TypeError: 'set' object does not support indexing
 >>>
 ```
 
-### set add() 和update()
+### 设置add() 和update()
 
 用 `add()` 方法我们能增加一个元素到集合中。
 
@@ -1686,9 +1686,9 @@ TypeError: 'set' object does not support indexing
 {1, 2, 3, 4, 5, 6}  # remember, sets automatically remove duplicates
 ```
 
-### set remove() and discard()
+### 设置 remove() 和 discard()
 
-Both methods will remove an element from the set, but `remove()` will raise a `key error` if the value doesn't exist.
+这两个方法将移除一个元素从集合，但是如果key 值不存在 `remove()` 将抛出一个 `key error` 。
 
 ```python
 >>> s = {1, 2, 3}
@@ -1701,7 +1701,7 @@ Traceback (most recent call last):
 KeyError: 3
 ```
 
-`discard()` won't raise any errors.
+`discard()` 不会抛出任何错误。
 
 ```python
 >>> s = {1, 2, 3}
@@ -1712,9 +1712,9 @@ KeyError: 3
 >>>
 ```
 
-### set union()
+### 设置union()
 
-`union()` or `|` will create a new set that contains all the elements from the sets provided.
+`union()` 或`|` 将创建一个包含所提供集合中的所有元素的集合。
 
 ```python
 >>> s1 = {1, 2, 3}
