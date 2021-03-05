@@ -446,14 +446,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-03-04
+                    2021-03-05
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-03-04
+                    2021-03-05
                 </div>
                 
 
@@ -1683,7 +1683,7 @@ Traceback <span class="token punctuation">(</span>most recent call last<span cla
   File <span class="token string">"&lt;stdin&gt;"</span><span class="token punctuation">,</span> line <span class="token number">1</span><span class="token punctuation">,</span> <span class="token keyword">in</span> <span class="token operator">&lt;</span>module<span class="token operator">&gt;</span>
 TypeError<span class="token punctuation">:</span> <span class="token string">'set'</span> <span class="token builtin">object</span> does <span class="token keyword">not</span> support indexing
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="set-add-和update"><a href="#set-add-和update" class="headerlink" title="set add() 和update()"></a>set add() 和update()</h3><p>用 <code>add()</code> 方法我们能增加一个元素到集合中。</p>
+<h3 id="设置add-和update"><a href="#设置add-和update" class="headerlink" title="设置add() 和update()"></a>设置add() 和update()</h3><p>用 <code>add()</code> 方法我们能增加一个元素到集合中。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s<span class="token punctuation">.</span>add<span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s
@@ -1693,7 +1693,7 @@ TypeError<span class="token punctuation">:</span> <span class="token string">'se
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s<span class="token punctuation">.</span>update<span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s
 <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">}</span>  <span class="token comment"># remember, sets automatically remove duplicates</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="set-remove-and-discard"><a href="#set-remove-and-discard" class="headerlink" title="set remove() and discard()"></a>set remove() and discard()</h3><p>Both methods will remove an element from the set, but <code>remove()</code> will raise a <code>key error</code> if the value doesn’t exist.</p>
+<h3 id="设置-remove-和-discard"><a href="#设置-remove-和-discard" class="headerlink" title="设置 remove() 和 discard()"></a>设置 remove() 和 discard()</h3><p>这两个方法将移除一个元素从集合，但是如果key 值不存在 <code>remove()</code> 将抛出一个 <code>key error</code> 。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s<span class="token punctuation">.</span>remove<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s
@@ -1702,14 +1702,14 @@ TypeError<span class="token punctuation">:</span> <span class="token string">'se
 Traceback <span class="token punctuation">(</span>most recent call last<span class="token punctuation">)</span><span class="token punctuation">:</span>
   File <span class="token string">"&lt;stdin&gt;"</span><span class="token punctuation">,</span> line <span class="token number">1</span><span class="token punctuation">,</span> <span class="token keyword">in</span> <span class="token operator">&lt;</span>module<span class="token operator">&gt;</span>
 KeyError<span class="token punctuation">:</span> <span class="token number">3</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><code>discard()</code> won’t raise any errors.</p>
+<p><code>discard()</code> 不会抛出任何错误。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s<span class="token punctuation">.</span>discard<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s
 <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s<span class="token punctuation">.</span>discard<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="set-union"><a href="#set-union" class="headerlink" title="set union()"></a>set union()</h3><p><code>union()</code> or <code>|</code> will create a new set that contains all the elements from the sets provided.</p>
+<h3 id="设置union"><a href="#设置union" class="headerlink" title="设置union()"></a>设置union()</h3><p><code>union()</code> 或<code>|</code> 将创建一个包含所提供集合中的所有元素的集合。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s1 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s2 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s1<span class="token punctuation">.</span>union<span class="token punctuation">(</span>s2<span class="token punctuation">)</span>  <span class="token comment"># or 's1 | s2'</span>
@@ -3619,7 +3619,7 @@ Python
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/04/xue-xi/python/python-cheatsheet-zh-cn/">https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/04/xue-xi/python/python-cheatsheet-zh-cn/</a>
+                    <a href="https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/05/xue-xi/python/python-cheatsheet-zh-cn/">https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/05/xue-xi/python/python-cheatsheet-zh-cn/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -4091,7 +4091,7 @@ Python
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/myhexo/2021/03/04/xue-xi/python/python-cheatsheet/">
+                <a href="/myhexo/2021/03/05/xue-xi/python/python-cheatsheet/">
                     <div class="card-image">
                         
                         
@@ -4108,7 +4108,7 @@ Python
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-04
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-05
                         </span>
                         <span class="publish-author">
                             
