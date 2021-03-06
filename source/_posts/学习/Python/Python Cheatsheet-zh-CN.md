@@ -1725,7 +1725,7 @@ KeyError: 3
 
 ### set intersection
 
-`intersection` or `&` will return a set containing only the elements that are common to all of them.
+`intersection` 或 `&` 将返回一个仅包含两个集合共有元素的集合。
 
 ```python
 >>> s1 = {1, 2, 3}
@@ -1737,7 +1737,7 @@ KeyError: 3
 
 ### set difference
 
-`difference` or `-` will return only the elements that are unique to the first set (invoked set).
+`difference` 或`-` 将返回仅有一第一个集合（调用集合）仅有的唯一元素。
 
 ```python
 >>> s1 = {1, 2, 3}
@@ -1750,7 +1750,7 @@ KeyError: 3
 
 ### set symetric_difference
 
-`symetric_difference` or `^` will return all the elements that are not common between them.
+`symetric_difference` 或 `^` 将返回他们非共有的元素集合。
 
 ```python
 >>> s1 = {1, 2, 3}
@@ -1761,7 +1761,7 @@ KeyError: 3
 
 [_返回顶部_](#Python 备忘录)
 
-## itertools Module
+## itertools 模块
 
 The _itertools_ module is a collection of tools intended to be fast and use memory efficiently when handling iterators (like [lists](#lists) or [dictionaries](#dictionaries-and-structuring-data)).
 
