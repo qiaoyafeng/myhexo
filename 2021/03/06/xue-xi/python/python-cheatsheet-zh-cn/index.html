@@ -446,14 +446,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-03-05
+                    2021-03-06
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-03-05
+                    2021-03-06
                 </div>
                 
 
@@ -1714,26 +1714,26 @@ KeyError<span class="token punctuation">:</span> <span class="token number">3</s
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s2 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s1<span class="token punctuation">.</span>union<span class="token punctuation">(</span>s2<span class="token punctuation">)</span>  <span class="token comment"># or 's1 | s2'</span>
 <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="set-intersection"><a href="#set-intersection" class="headerlink" title="set intersection"></a>set intersection</h3><p><code>intersection</code> or <code>&amp;</code> will return a set containing only the elements that are common to all of them.</p>
+<h3 id="set-intersection"><a href="#set-intersection" class="headerlink" title="set intersection"></a>set intersection</h3><p><code>intersection</code> 或 <code>&amp;</code> 将返回一个仅包含两个集合共有元素的集合。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s1 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s2 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s3 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s1<span class="token punctuation">.</span>intersection<span class="token punctuation">(</span>s2<span class="token punctuation">,</span> s3<span class="token punctuation">)</span>  <span class="token comment"># or 's1 &amp; s2 &amp; s3'</span>
 <span class="token punctuation">{</span><span class="token number">3</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="set-difference"><a href="#set-difference" class="headerlink" title="set difference"></a>set difference</h3><p><code>difference</code> or <code>-</code> will return only the elements that are unique to the first set (invoked set).</p>
+<h3 id="set-difference"><a href="#set-difference" class="headerlink" title="set difference"></a>set difference</h3><p><code>difference</code> 或<code>-</code> 将返回仅有一第一个集合（调用集合）仅有的唯一元素。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s1 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s2 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s1<span class="token punctuation">.</span>difference<span class="token punctuation">(</span>s2<span class="token punctuation">)</span>  <span class="token comment"># or 's1 - s2'</span>
 <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s2<span class="token punctuation">.</span>difference<span class="token punctuation">(</span>s1<span class="token punctuation">)</span> <span class="token comment"># or 's2 - s1'</span>
 <span class="token punctuation">{</span><span class="token number">4</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="set-symetric-difference"><a href="#set-symetric-difference" class="headerlink" title="set symetric_difference"></a>set symetric_difference</h3><p><code>symetric_difference</code> or <code>^</code> will return all the elements that are not common between them.</p>
+<h3 id="set-symetric-difference"><a href="#set-symetric-difference" class="headerlink" title="set symetric_difference"></a>set symetric_difference</h3><p><code>symetric_difference</code> 或 <code>^</code> 将返回他们非共有的元素集合。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s1 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s2 <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">}</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> s1<span class="token punctuation">.</span>symmetric_difference<span class="token punctuation">(</span>s2<span class="token punctuation">)</span>  <span class="token comment"># or 's1 ^ s2'</span>
 <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <p>[_返回顶部_](#Python 备忘录)</p>
-<h2 id="itertools-Module"><a href="#itertools-Module" class="headerlink" title="itertools Module"></a>itertools Module</h2><p>The <em>itertools</em> module is a collection of tools intended to be fast and use memory efficiently when handling iterators (like <a href="#lists">lists</a> or <a href="#dictionaries-and-structuring-data">dictionaries</a>).</p>
+<h2 id="itertools-模块"><a href="#itertools-模块" class="headerlink" title="itertools 模块"></a>itertools 模块</h2><p>The <em>itertools</em> module is a collection of tools intended to be fast and use memory efficiently when handling iterators (like <a href="#lists">lists</a> or <a href="#dictionaries-and-structuring-data">dictionaries</a>).</p>
 <p>From the official <a target="_blank" rel="noopener" href="https://docs.python.org/3/library/itertools.html">Python 3.x documentation</a>:</p>
 <blockquote>
 <p>The module standardizes a core set of fast, memory efficient tools that are useful by themselves or in combination. Together, they form an “iterator algebra” making it possible to construct specialized tools succinctly and efficiently in pure Python.</p>
@@ -3619,7 +3619,7 @@ Python
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/05/xue-xi/python/python-cheatsheet-zh-cn/">https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/05/xue-xi/python/python-cheatsheet-zh-cn/</a>
+                    <a href="https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/06/xue-xi/python/python-cheatsheet-zh-cn/">https://qiaoyafeng.github.io/myhexo/myhexo/2021/03/06/xue-xi/python/python-cheatsheet-zh-cn/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -4091,7 +4091,7 @@ Python
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/myhexo/2021/03/05/xue-xi/python/python-cheatsheet/">
+                <a href="/myhexo/2021/03/06/xue-xi/python/python-cheatsheet/">
                     <div class="card-image">
                         
                         
@@ -4108,7 +4108,7 @@ Python
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-05
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-06
                         </span>
                         <span class="publish-author">
                             
