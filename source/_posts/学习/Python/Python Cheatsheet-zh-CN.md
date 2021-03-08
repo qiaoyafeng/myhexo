@@ -1763,9 +1763,9 @@ KeyError: 3
 
 ## itertools 模块
 
-_itertools_ 模块是一个工具集合，is a collection of tools intended to be fast and use memory efficiently when handling iterators (like [lists](#lists) or [dictionaries](#dictionaries-and-structuring-data)).
+_itertools_ 模块是一个工具集合，这个工具旨在有效地快速高效使用内存当操作遍历器时（如 列表 或字典） [dictionaries](#dictionaries-and-structuring-data)).
 
-From the official [Python 3.x documentation](https://docs.python.org/3/library/itertools.html):
+来之Python3的官方文档：
 
 > The module standardizes a core set of fast, memory efficient tools that are useful by themselves or in combination. Together, they form an “iterator algebra” making it possible to construct specialized tools succinctly and efficiently in pure Python.
 
