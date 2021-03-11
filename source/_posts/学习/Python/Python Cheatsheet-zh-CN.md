@@ -4261,7 +4261,7 @@ logging.basicConfig(filename='myProgramLog.txt', level=logging.DEBUG, format='%(
 9
 ```
 
-注意： lambda 只能求职一个表达式，就像单行代码一样，
+注意： lambda 只能求值一个表达式，就像单行代码一样，
 
 [_返回顶部_](#Python 备忘录)
 
