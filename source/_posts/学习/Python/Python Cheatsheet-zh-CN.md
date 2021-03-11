@@ -4219,9 +4219,9 @@ logging.basicConfig(filename='myProgramLog.txt', level=logging.DEBUG, format='%(
 
 [_返回顶部_](#Python 备忘录)
 
-## Lambda Functions
+## Lambda 函数
 
-This function:
+这个函数：
 
 ```python
 >>> def add(x, y):
@@ -4231,7 +4231,7 @@ This function:
 8
 ```
 
-Is equivalent to the _lambda_ function:
+等于这个 _lambda_ 函数：
 
 ```python
 >>> add = lambda x, y: x + y
@@ -4239,14 +4239,14 @@ Is equivalent to the _lambda_ function:
 8
 ```
 
-It's not even need to bind it to a name like add before:
+甚至不需要将其绑定到像add的前边：
 
 ```python
 >>> (lambda x, y: x + y)(5, 3)
 8
 ```
 
-Like regular nested functions, lambdas also work as lexical closures:
+像常规的嵌套函数， lambdas  也可以用作词法闭包：
 
 ```python
 >>> def make_adder(n):
@@ -4261,7 +4261,7 @@ Like regular nested functions, lambdas also work as lexical closures:
 9
 ```
 
-Note: lambda can only evaluate an expression, like a single line of code.
+注意： lambda 只能求职一个表达式，就像单行代码一样，
 
 [_返回顶部_](#Python 备忘录)
 
