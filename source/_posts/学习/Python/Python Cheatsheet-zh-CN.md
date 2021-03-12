@@ -1763,15 +1763,15 @@ KeyError: 3
 
 ## itertools 模块
 
-_itertools_ 模块是一个工具集合，这个工具旨在有效地快速高效使用内存当操作遍历器时（如 列表 或字典） [dictionaries](#dictionaries-and-structuring-data)).
+_itertools_ 模块是一个工具集合，这个工具旨在有效地快速高效使用内存当操作遍历器时（如 列表 或字典）。
 
-来之Python3的官方文档：
+来自Python3的官方文档：
 
-> The module standardizes a core set of fast, memory efficient tools that are useful by themselves or in combination. Together, they form an “iterator algebra” making it possible to construct specialized tools succinctly and efficiently in pure Python.
+> 这个模块标准化了一个快速，内存高效的工具核心集，这些工具自身或者结合很有用。它们共同在纯Python中构成了一个“迭代器代数”使构建特殊的简洁高效工具成为可能。
 
-The _itertools_ module comes in the standard library and must be imported.
+ _itertools_ 模块来自标准库，必须导入。
 
-The [operator](https://docs.python.org/3/library/operator.html) module will also be used. This module is not necessary when using itertools, but needed for some of the examples below.
+[operator](https://docs.python.org/3/library/operator.html) 模块也将被用到。这个模块不是必须的当用 itertools 时, 但对于下面这些例子是需要的。
 
 [_返回顶部_](#Python 备忘录)
 
