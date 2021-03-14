@@ -1777,13 +1777,7 @@ _itertools_ 模块是一个工具集合，这个工具旨在有效地快速高�
 
 ### accumulate()
 
-Makes an iterator that returns the results of a function.
-
-```python
-itertools.accumulate(iterable[, func])
-```
-
-Example:
+制作一个返回函数结果的迭代器。
 
 ```python
 >>> data = [1, 2, 3, 4, 5]
@@ -1797,7 +1791,7 @@ Example:
 120
 ```
 
-The operator.mul takes two numbers and multiplies them:
+operator.mul 取两个数字，并将它们相乘。
 
 ```python
 operator.mul(1, 2)
@@ -1810,7 +1804,7 @@ operator.mul(24, 5)
 120
 ```
 
-Passing a function is optional:
+传递函数是可选的：
 
 ```python
 >>> data = [5, 2, 6, 4, 5, 9, 1]
@@ -1826,7 +1820,7 @@ Passing a function is optional:
 32
 ```
 
-If no function is designated the items will be summed:
+如果未指定函数，则对各项If no function is designated the items will be summed:
 
 ```python
 5
