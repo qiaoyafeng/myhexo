@@ -1820,7 +1820,7 @@ operator.mul(24, 5)
 32
 ```
 
-如果未指定函数，则对各项If no function is designated the items will be summed:
+如果未指定函数，则对各项相加：
 
 ```python
 5
@@ -1836,13 +1836,13 @@ operator.mul(24, 5)
 
 ### combinations()
 
-Takes an iterable and a integer. This will create all the unique combination that have r members.
+接受一个可迭代的整数。这个将闯将所有拥有r个成员的唯一组合。
 
 ```python
 itertools.combinations(iterable, r)
 ```
 
-Example:
+例子:
 
 ```python
 >>> shapes = ['circle', 'triangle', 'square',]
@@ -1858,13 +1858,13 @@ Example:
 
 ### combinations_with_replacement()
 
-Just like combinations(), but allows individual elements to be repeated more than once.
+就像 combinations()，但允许个别元素重复多次。
 
 ```python
 itertools.combinations_with_replacement(iterable, r)
 ```
 
-Example:
+例子:
 
 ```python
 >>> shapes = ['circle', 'triangle', 'square']
@@ -1883,13 +1883,13 @@ Example:
 
 ### count()
 
-Makes an iterator that returns evenly spaced values starting with number start.
+返回以数字开始步调平稳的迭代器。
 
 ```python
 itertools.count(start=0, step=1)
 ```
 
-Example:
+例子:
 
 ```python
 >>> for i in itertools.count(10,3):
@@ -1907,13 +1907,13 @@ Example:
 
 ### cycle()
 
-This function cycles through an iterator endlessly.
+此函数通过一个迭代器无限循环。
 
 ```python
 itertools.cycle(iterable)
 ```
 
-Example:
+例子	:
 
 ```python
 >>> colors = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
@@ -1929,7 +1929,7 @@ red
 orange
 ```
 
-When reached the end of the iterable it start over again from the beginning.
+当达到迭代器的末尾会再次从头重新开始。
 
 [_返回顶部_](#Python 备忘录)
 
