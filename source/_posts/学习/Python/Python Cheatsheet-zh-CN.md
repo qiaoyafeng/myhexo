@@ -1935,13 +1935,13 @@ orange
 
 ### chain()
 
-Take a series of iterables and return them as one long iterable.
+传递可迭代的一个系列并返回他们作为一个长的可迭代器。
 
 ```python
 itertools.chain(*iterables)
 ```
 
-Example:
+例子：
 
 ```python
 >>> colors = ['red', 'orange', 'yellow', 'green', 'blue']
@@ -1964,13 +1964,13 @@ pentagon
 
 ### compress()
 
-Filters one iterable with another.
+过滤一个可迭代对象
 
 ```python
 itertools.compress(data, selectors)
 ```
 
-Example:
+例子:
 
 ```python
 >>> shapes = ['circle', 'triangle', 'square', 'pentagon']
