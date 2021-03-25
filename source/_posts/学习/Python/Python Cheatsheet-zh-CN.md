@@ -2277,7 +2277,7 @@ Example:
 
 [_返回顶部_](#Python 备忘录)
 
-## Comprehensions
+## 推导式 Comprehensions
 
 ### List comprehension
 
