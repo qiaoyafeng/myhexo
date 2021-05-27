@@ -6,7 +6,7 @@
   <link href="https://qiaoyafeng.github.io/myhexo/atom.xml" rel="self"/>
   
   <link href="https://qiaoyafeng.github.io/myhexo/"/>
-  <updated>2021-05-26T15:46:54.041Z</updated>
+  <updated>2021-05-27T04:06:33.412Z</updated>
   <id>https://qiaoyafeng.github.io/myhexo/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title></title>
-    <link href="https://qiaoyafeng.github.io/myhexo/2021/05/26/xue-xi/python/pep-0008/"/>
-    <id>https://qiaoyafeng.github.io/myhexo/2021/05/26/xue-xi/python/pep-0008/</id>
-    <published>2021-05-26T15:46:54.041Z</published>
-    <updated>2021-05-26T15:46:54.041Z</updated>
+    <link href="https://qiaoyafeng.github.io/myhexo/2021/05/27/xue-xi/python/pep-0008/"/>
+    <id>https://qiaoyafeng.github.io/myhexo/2021/05/27/xue-xi/python/pep-0008/</id>
+    <published>2021-05-27T04:06:33.408Z</published>
+    <updated>2021-05-27T04:06:33.412Z</updated>
     
     
       
@@ -39,10 +39,10 @@
   
   <entry>
     <title></title>
-    <link href="https://qiaoyafeng.github.io/myhexo/2021/05/26/xue-xi/python/python-cheatsheet/"/>
-    <id>https://qiaoyafeng.github.io/myhexo/2021/05/26/xue-xi/python/python-cheatsheet/</id>
-    <published>2021-05-26T15:46:54.037Z</published>
-    <updated>2021-05-26T15:46:54.037Z</updated>
+    <link href="https://qiaoyafeng.github.io/myhexo/2021/05/27/xue-xi/python/python-cheatsheet/"/>
+    <id>https://qiaoyafeng.github.io/myhexo/2021/05/27/xue-xi/python/python-cheatsheet/</id>
+    <published>2021-05-27T04:06:33.404Z</published>
+    <updated>2021-05-27T04:06:33.404Z</updated>
     
     
       
@@ -60,10 +60,10 @@
   
   <entry>
     <title></title>
-    <link href="https://qiaoyafeng.github.io/myhexo/2021/05/26/xue-xi/python/python-cheatsheet-zh-cn/"/>
-    <id>https://qiaoyafeng.github.io/myhexo/2021/05/26/xue-xi/python/python-cheatsheet-zh-cn/</id>
-    <published>2021-05-26T15:46:54.037Z</published>
-    <updated>2021-05-26T15:46:54.037Z</updated>
+    <link href="https://qiaoyafeng.github.io/myhexo/2021/05/27/xue-xi/python/python-cheatsheet-zh-cn/"/>
+    <id>https://qiaoyafeng.github.io/myhexo/2021/05/27/xue-xi/python/python-cheatsheet-zh-cn/</id>
+    <published>2021-05-27T04:06:33.404Z</published>
+    <updated>2021-05-27T04:06:33.404Z</updated>
     
     
       
@@ -80,11 +80,11 @@
   </entry>
   
   <entry>
-    <title>Why Explore Space?？</title>
-    <link href="https://qiaoyafeng.github.io/myhexo/2021/05/24/xue-xi/essay/why-explore-space/"/>
-    <id>https://qiaoyafeng.github.io/myhexo/2021/05/24/xue-xi/essay/why-explore-space/</id>
-    <published>2021-05-24T15:46:04.000Z</published>
-    <updated>2021-05-26T15:46:54.057Z</updated>
+    <title>设计思维</title>
+    <link href="https://qiaoyafeng.github.io/myhexo/2021/05/26/ji-lu/she-ji-si-wei/"/>
+    <id>https://qiaoyafeng.github.io/myhexo/2021/05/26/ji-lu/she-ji-si-wei/</id>
+    <published>2021-05-26T16:40:04.000Z</published>
+    <updated>2021-05-27T04:06:33.440Z</updated>
     
     
       
@@ -100,9 +100,38 @@
     <category term="essay" scheme="https://qiaoyafeng.github.io/myhexo/categories/essay/"/>
     
     
+    <category term="essay" scheme="https://qiaoyafeng.github.io/myhexo/tags/essay/"/>
+    
     <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
     
+    <category term="设计思维" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E8%AE%BE%E8%AE%A1%E6%80%9D%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Why Explore Space?？</title>
+    <link href="https://qiaoyafeng.github.io/myhexo/2021/05/24/xue-xi/essay/why-explore-space/"/>
+    <id>https://qiaoyafeng.github.io/myhexo/2021/05/24/xue-xi/essay/why-explore-space/</id>
+    <published>2021-05-24T15:46:04.000Z</published>
+    <updated>2021-05-27T04:06:33.424Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/myhexo/assets/css/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    <category term="essay" scheme="https://qiaoyafeng.github.io/myhexo/categories/essay/"/>
+    
+    
     <category term="essay" scheme="https://qiaoyafeng.github.io/myhexo/tags/essay/"/>
+    
+    <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="NASA" scheme="https://qiaoyafeng.github.io/myhexo/tags/NASA/"/>
     
@@ -113,7 +142,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/05/24/xue-xi/essay/nasa-wei-shi-me-yao-tan-suo-yu-zhou/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/05/24/xue-xi/essay/nasa-wei-shi-me-yao-tan-suo-yu-zhou/</id>
     <published>2021-05-24T15:40:04.000Z</published>
-    <updated>2021-05-26T15:46:54.053Z</updated>
+    <updated>2021-05-27T04:06:33.424Z</updated>
     
     
       
@@ -129,9 +158,9 @@
     <category term="essay" scheme="https://qiaoyafeng.github.io/myhexo/categories/essay/"/>
     
     
-    <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="essay" scheme="https://qiaoyafeng.github.io/myhexo/tags/essay/"/>
+    
+    <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="NASA" scheme="https://qiaoyafeng.github.io/myhexo/tags/NASA/"/>
     
@@ -142,7 +171,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/05/15/sheng-huo/yi-gong/huo-dong-zong-jie/2021-nian-5-yue-15-ri-fang-shan/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/05/15/sheng-huo/yi-gong/huo-dong-zong-jie/2021-nian-5-yue-15-ri-fang-shan/</id>
     <published>2021-05-15T15:21:55.000Z</published>
-    <updated>2021-05-26T15:46:54.073Z</updated>
+    <updated>2021-05-27T04:06:33.440Z</updated>
     
     
       
@@ -169,7 +198,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/03/30/sheng-huo/yi-gong/huo-dong-zong-jie/2021-nian-3-yue-27-ri-fang-shan/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/03/30/sheng-huo/yi-gong/huo-dong-zong-jie/2021-nian-3-yue-27-ri-fang-shan/</id>
     <published>2021-03-30T15:36:55.000Z</published>
-    <updated>2021-05-26T15:46:54.073Z</updated>
+    <updated>2021-05-27T04:06:33.440Z</updated>
     
     
       
@@ -196,7 +225,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/03/28/xue-xi/reading/liu-ding-si-kao-mao/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/03/28/xue-xi/reading/liu-ding-si-kao-mao/</id>
     <published>2021-03-28T15:20:04.000Z</published>
-    <updated>2021-05-26T15:46:54.069Z</updated>
+    <updated>2021-05-27T04:06:33.436Z</updated>
     
     
       
@@ -221,7 +250,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/03/09/sheng-huo/yi-gong/huo-dong-zong-jie/2021-nian-3-yue-6-ri-fang-shan/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/03/09/sheng-huo/yi-gong/huo-dong-zong-jie/2021-nian-3-yue-6-ri-fang-shan/</id>
     <published>2021-03-09T15:36:55.000Z</published>
-    <updated>2021-05-26T15:46:54.073Z</updated>
+    <updated>2021-05-27T04:06:33.440Z</updated>
     
     
       
@@ -248,7 +277,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/03/02/sheng-huo/iknow/xi-hu-xing-zuo/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/03/02/sheng-huo/iknow/xi-hu-xing-zuo/</id>
     <published>2021-03-02T15:36:55.000Z</published>
-    <updated>2021-05-26T15:46:54.069Z</updated>
+    <updated>2021-05-27T04:06:33.436Z</updated>
     
     
       
@@ -273,7 +302,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/02/27/xue-xi/reading/xiao-shou-guan-jun-shi-ru-he-lian-cheng-de/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/02/27/xue-xi/reading/xiao-shou-guan-jun-shi-ru-he-lian-cheng-de/</id>
     <published>2021-02-27T15:10:04.000Z</published>
-    <updated>2021-05-26T15:46:54.069Z</updated>
+    <updated>2021-05-27T04:06:33.436Z</updated>
     
     
       
@@ -298,7 +327,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/02/17/xue-xi/english/new-concept/lesson10/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/02/17/xue-xi/english/new-concept/lesson10/</id>
     <published>2021-02-17T15:41:04.000Z</published>
-    <updated>2021-05-26T15:46:54.033Z</updated>
+    <updated>2021-05-27T04:06:33.404Z</updated>
     
     
       
@@ -327,7 +356,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/02/06/xue-xi/reading/si-tan-fu-da-xue-ren-sheng-she-ji-ke/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/02/06/xue-xi/reading/si-tan-fu-da-xue-ren-sheng-she-ji-ke/</id>
     <published>2021-02-06T16:10:04.000Z</published>
-    <updated>2021-05-26T15:46:54.069Z</updated>
+    <updated>2021-05-27T04:06:33.436Z</updated>
     
     
       
@@ -352,7 +381,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/02/06/xue-xi/essay/mo-bi-wu-si-huan/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/02/06/xue-xi/essay/mo-bi-wu-si-huan/</id>
     <published>2021-02-06T15:55:04.000Z</published>
-    <updated>2021-05-26T15:46:54.069Z</updated>
+    <updated>2021-05-27T04:06:33.436Z</updated>
     
     
       
@@ -368,9 +397,9 @@
     <category term="essay" scheme="https://qiaoyafeng.github.io/myhexo/categories/essay/"/>
     
     
-    <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="essay" scheme="https://qiaoyafeng.github.io/myhexo/tags/essay/"/>
+    
+    <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="莫比乌斯" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E8%8E%AB%E6%AF%94%E4%B9%8C%E6%96%AF/"/>
     
@@ -381,7 +410,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/02/06/xue-xi/reading/wei-cheng/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/02/06/xue-xi/reading/wei-cheng/</id>
     <published>2021-02-06T15:10:04.000Z</published>
-    <updated>2021-05-26T15:46:54.069Z</updated>
+    <updated>2021-05-27T04:06:33.436Z</updated>
     
     
       
@@ -406,7 +435,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/02/04/xue-xi/english/new-concept/lesson9/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/02/04/xue-xi/english/new-concept/lesson9/</id>
     <published>2021-02-04T15:41:04.000Z</published>
-    <updated>2021-05-26T15:46:54.037Z</updated>
+    <updated>2021-05-27T04:06:33.404Z</updated>
     
     
       
@@ -435,7 +464,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/02/01/xue-xi/english/new-concept/lesson7/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/02/01/xue-xi/english/new-concept/lesson7/</id>
     <published>2021-02-01T13:52:04.000Z</published>
-    <updated>2021-05-26T15:46:54.037Z</updated>
+    <updated>2021-05-27T04:06:33.404Z</updated>
     
     
       
@@ -464,7 +493,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/01/31/xue-xi/english/new-concept/lesson8/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/01/31/xue-xi/english/new-concept/lesson8/</id>
     <published>2021-01-31T13:52:04.000Z</published>
-    <updated>2021-05-26T15:46:54.037Z</updated>
+    <updated>2021-05-27T04:06:33.404Z</updated>
     
     
       
@@ -493,36 +522,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/01/26/xue-xi/english/new-concept/lesson6/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/01/26/xue-xi/english/new-concept/lesson6/</id>
     <published>2021-01-26T15:10:04.000Z</published>
-    <updated>2021-05-26T15:46:54.037Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/myhexo/assets/css/APlayer.min.css&quot;&gt;&lt;script</summary>
-        
-      
-    
-    
-    
-    <category term="English" scheme="https://qiaoyafeng.github.io/myhexo/categories/English/"/>
-    
-    
-    <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="English" scheme="https://qiaoyafeng.github.io/myhexo/tags/English/"/>
-    
-    <category term="new concept" scheme="https://qiaoyafeng.github.io/myhexo/tags/new-concept/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Nice to meet you. 很高兴见到你。</title>
-    <link href="https://qiaoyafeng.github.io/myhexo/2021/01/25/xue-xi/english/new-concept/lesson5/"/>
-    <id>https://qiaoyafeng.github.io/myhexo/2021/01/25/xue-xi/english/new-concept/lesson5/</id>
-    <published>2021-01-25T15:52:04.000Z</published>
-    <updated>2021-05-26T15:46:54.037Z</updated>
+    <updated>2021-05-27T04:06:33.404Z</updated>
     
     
       
