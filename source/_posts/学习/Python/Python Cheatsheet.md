@@ -1,3 +1,18 @@
+---
+title: Python Cheatsheet
+date: 2020-10-24 10:30:04
+author: 乔亚峰
+top: true
+toc: true
+mathjax: false
+summary: This cheatsheet tries to provide a basic reference for beginner and advanced developers, lower the entry barrier for newcomers and help veterans refresh the old tricks.
+categories: Python
+tags:
+  - Python
+  - 博客
+---
+
+
 # About [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/wilfredinni/python-cheatsheet/master?filepath=jupyter_notebooks)
 
 Basic cheatsheet for Python mostly based on the book written by Al Sweigart, [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) under the [Creative Commons license](https://creativecommons.org/licenses/by-nc-sa/3.0/) and many other sources.
