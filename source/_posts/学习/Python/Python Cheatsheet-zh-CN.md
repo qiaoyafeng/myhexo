@@ -1,3 +1,16 @@
+---
+title: Python Cheatsheet 中文版
+date: 2020-10-24 10:30:04
+author: 乔亚峰
+top: true
+toc: true
+mathjax: false
+summary: 本文旨在为新手和高级开发者提供基本参考，降低新手的入门门槛，并帮助资深开发者更新旧技巧。
+categories: Python
+tags:
+  - Python
+  - 博客
+---
 
 ## Python 备忘录
 
