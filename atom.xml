@@ -6,7 +6,7 @@
   <link href="https://qiaoyafeng.github.io/myhexo/atom.xml" rel="self"/>
   
   <link href="https://qiaoyafeng.github.io/myhexo/"/>
-  <updated>2021-07-30T17:54:02.185Z</updated>
+  <updated>2021-08-04T03:17:04.560Z</updated>
   <id>https://qiaoyafeng.github.io/myhexo/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Redis介绍</title>
+    <link href="https://qiaoyafeng.github.io/myhexo/2021/08/04/xue-xi/technology/redis-jie-shao/"/>
+    <id>https://qiaoyafeng.github.io/myhexo/2021/08/04/xue-xi/technology/redis-jie-shao/</id>
+    <published>2021-08-04T02:49:04.000Z</published>
+    <updated>2021-08-04T03:17:04.560Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/myhexo/assets/css/APlayer.min.css&quot;&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    <category term="Redis" scheme="https://qiaoyafeng.github.io/myhexo/categories/Redis/"/>
+    
+    
+    <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Redis" scheme="https://qiaoyafeng.github.io/myhexo/tags/Redis/"/>
+    
+  </entry>
+  
+  <entry>
     <title>数据结构与算法</title>
     <link href="https://qiaoyafeng.github.io/myhexo/2021/07/30/xue-xi/algorithm/shu-ju-jie-gou-yu-suan-fa/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/07/30/xue-xi/algorithm/shu-ju-jie-gou-yu-suan-fa/</id>
     <published>2021-07-30T17:07:04.000Z</published>
-    <updated>2021-07-30T17:54:02.185Z</updated>
+    <updated>2021-08-04T03:17:04.504Z</updated>
     
     
       
@@ -50,7 +77,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/07/21/xue-xi/python/md5-zhai-yao-suan-fa-jian-jie/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/07/21/xue-xi/python/md5-zhai-yao-suan-fa-jian-jie/</id>
     <published>2021-07-21T15:49:04.000Z</published>
-    <updated>2021-07-30T17:54:02.205Z</updated>
+    <updated>2021-08-04T03:17:04.524Z</updated>
     
     
       
@@ -77,7 +104,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/07/20/xue-xi/essay/mo-bi-wu-si-huan-fu-ben/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/07/20/xue-xi/essay/mo-bi-wu-si-huan-fu-ben/</id>
     <published>2021-07-20T15:45:04.000Z</published>
-    <updated>2021-07-30T17:54:02.237Z</updated>
+    <updated>2021-08-04T03:17:04.556Z</updated>
     
     
       
@@ -106,7 +133,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/07/12/xue-xi/python/pep8-cn/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/07/12/xue-xi/python/pep8-cn/</id>
     <published>2021-07-12T15:30:04.000Z</published>
-    <updated>2021-07-30T17:54:02.205Z</updated>
+    <updated>2021-08-04T03:17:04.524Z</updated>
     
     
       
@@ -133,7 +160,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/07/04/xue-xi/essay/ding-feng-bo/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/07/04/xue-xi/essay/ding-feng-bo/</id>
     <published>2021-07-04T16:08:04.000Z</published>
-    <updated>2021-07-30T17:54:02.237Z</updated>
+    <updated>2021-08-04T03:17:04.556Z</updated>
     
     
       
@@ -162,7 +189,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/05/31/sheng-huo/iknow/bitcoin/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/05/31/sheng-huo/iknow/bitcoin/</id>
     <published>2021-05-31T15:36:55.000Z</published>
-    <updated>2021-07-30T17:54:02.237Z</updated>
+    <updated>2021-08-04T03:17:04.560Z</updated>
     
     
       
@@ -187,7 +214,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/05/26/ji-lu/she-ji-si-wei/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/05/26/ji-lu/she-ji-si-wei/</id>
     <published>2021-05-26T16:40:04.000Z</published>
-    <updated>2021-07-30T17:54:02.245Z</updated>
+    <updated>2021-08-04T03:17:04.564Z</updated>
     
     
       
@@ -216,7 +243,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/05/24/xue-xi/essay/why-explore-space/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/05/24/xue-xi/essay/why-explore-space/</id>
     <published>2021-05-24T15:46:04.000Z</published>
-    <updated>2021-07-30T17:54:02.225Z</updated>
+    <updated>2021-08-04T03:17:04.544Z</updated>
     
     
       
@@ -245,7 +272,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/05/24/xue-xi/essay/nasa-wei-shi-me-yao-tan-suo-yu-zhou/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/05/24/xue-xi/essay/nasa-wei-shi-me-yao-tan-suo-yu-zhou/</id>
     <published>2021-05-24T15:40:04.000Z</published>
-    <updated>2021-07-30T17:54:02.225Z</updated>
+    <updated>2021-08-04T03:17:04.544Z</updated>
     
     
       
@@ -274,7 +301,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/05/15/sheng-huo/yi-gong/huo-dong-zong-jie/2021-nian-5-yue-15-ri-fang-shan/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/05/15/sheng-huo/yi-gong/huo-dong-zong-jie/2021-nian-5-yue-15-ri-fang-shan/</id>
     <published>2021-05-15T15:21:55.000Z</published>
-    <updated>2021-07-30T17:54:02.245Z</updated>
+    <updated>2021-08-04T03:17:04.564Z</updated>
     
     
       
@@ -301,7 +328,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/03/30/sheng-huo/yi-gong/huo-dong-zong-jie/2021-nian-3-yue-27-ri-fang-shan/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/03/30/sheng-huo/yi-gong/huo-dong-zong-jie/2021-nian-3-yue-27-ri-fang-shan/</id>
     <published>2021-03-30T15:36:55.000Z</published>
-    <updated>2021-07-30T17:54:02.245Z</updated>
+    <updated>2021-08-04T03:17:04.564Z</updated>
     
     
       
@@ -328,7 +355,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/03/28/xue-xi/reading/liu-ding-si-kao-mao/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/03/28/xue-xi/reading/liu-ding-si-kao-mao/</id>
     <published>2021-03-28T15:20:04.000Z</published>
-    <updated>2021-07-30T17:54:02.237Z</updated>
+    <updated>2021-08-04T03:17:04.556Z</updated>
     
     
       
@@ -353,7 +380,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/03/09/sheng-huo/yi-gong/huo-dong-zong-jie/2021-nian-3-yue-6-ri-fang-shan/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/03/09/sheng-huo/yi-gong/huo-dong-zong-jie/2021-nian-3-yue-6-ri-fang-shan/</id>
     <published>2021-03-09T15:36:55.000Z</published>
-    <updated>2021-07-30T17:54:02.245Z</updated>
+    <updated>2021-08-04T03:17:04.564Z</updated>
     
     
       
@@ -380,7 +407,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/03/02/sheng-huo/iknow/xi-hu-xing-zuo/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/03/02/sheng-huo/iknow/xi-hu-xing-zuo/</id>
     <published>2021-03-02T15:36:55.000Z</published>
-    <updated>2021-07-30T17:54:02.241Z</updated>
+    <updated>2021-08-04T03:17:04.560Z</updated>
     
     
       
@@ -405,7 +432,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/02/27/xue-xi/reading/xiao-shou-guan-jun-shi-ru-he-lian-cheng-de/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/02/27/xue-xi/reading/xiao-shou-guan-jun-shi-ru-he-lian-cheng-de/</id>
     <published>2021-02-27T15:10:04.000Z</published>
-    <updated>2021-07-30T17:54:02.237Z</updated>
+    <updated>2021-08-04T03:17:04.560Z</updated>
     
     
       
@@ -430,7 +457,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/02/17/xue-xi/english/new-concept/lesson10/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/02/17/xue-xi/english/new-concept/lesson10/</id>
     <published>2021-02-17T15:41:04.000Z</published>
-    <updated>2021-07-30T17:54:02.205Z</updated>
+    <updated>2021-08-04T03:17:04.524Z</updated>
     
     
       
@@ -459,7 +486,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/02/06/xue-xi/reading/si-tan-fu-da-xue-ren-sheng-she-ji-ke/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/02/06/xue-xi/reading/si-tan-fu-da-xue-ren-sheng-she-ji-ke/</id>
     <published>2021-02-06T16:10:04.000Z</published>
-    <updated>2021-07-30T17:54:02.237Z</updated>
+    <updated>2021-08-04T03:17:04.560Z</updated>
     
     
       
@@ -484,7 +511,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/02/06/xue-xi/essay/mo-bi-wu-si-huan/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/02/06/xue-xi/essay/mo-bi-wu-si-huan/</id>
     <published>2021-02-06T15:55:04.000Z</published>
-    <updated>2021-07-30T17:54:02.237Z</updated>
+    <updated>2021-08-04T03:17:04.556Z</updated>
     
     
       
@@ -513,7 +540,7 @@
     <link href="https://qiaoyafeng.github.io/myhexo/2021/02/06/xue-xi/reading/wei-cheng/"/>
     <id>https://qiaoyafeng.github.io/myhexo/2021/02/06/xue-xi/reading/wei-cheng/</id>
     <published>2021-02-06T15:10:04.000Z</published>
-    <updated>2021-07-30T17:54:02.237Z</updated>
+    <updated>2021-08-04T03:17:04.556Z</updated>
     
     
       
@@ -530,35 +557,6 @@
     
     
     <category term="读书笔记" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>How are you today? 你今天好吗？</title>
-    <link href="https://qiaoyafeng.github.io/myhexo/2021/02/04/xue-xi/english/new-concept/lesson9/"/>
-    <id>https://qiaoyafeng.github.io/myhexo/2021/02/04/xue-xi/english/new-concept/lesson9/</id>
-    <published>2021-02-04T15:41:04.000Z</published>
-    <updated>2021-07-30T17:54:02.205Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/myhexo/assets/css/APlayer.min.css&quot;&gt;&lt;script</summary>
-        
-      
-    
-    
-    
-    <category term="English" scheme="https://qiaoyafeng.github.io/myhexo/categories/English/"/>
-    
-    
-    <category term="博客" scheme="https://qiaoyafeng.github.io/myhexo/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="English" scheme="https://qiaoyafeng.github.io/myhexo/tags/English/"/>
-    
-    <category term="new concept" scheme="https://qiaoyafeng.github.io/myhexo/tags/new-concept/"/>
     
   </entry>
   
