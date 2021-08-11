@@ -186,7 +186,7 @@ $ pip install "celery[librabbitmq,redis,auth,msgpack]"
 * celery\[django\]：支持比较低的Django版本，不建议您在项目中使用它，它仅供参考
 ### **下载源代码进行安装**
 从 pypi 下载最新版本的 Celery ：
-{% embed url="https://pypi.org/project/celery/" caption="PyPI Celery" %}
+[PyPI Celery](https://pypi.org/project/celery/)
 您可以通过执行以下命令来进行安装
 ```bash
 $ tar xvfz celery-0.0.0.tar.gz
