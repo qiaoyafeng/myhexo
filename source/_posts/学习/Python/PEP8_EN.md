@@ -1,3 +1,19 @@
+---
+title: PEP 8 -- Style Guide for Python Code
+date: 2021-07-12 23:30:04
+author: 乔亚峰
+top: true
+toc: true
+mathjax: false
+summary: This document gives coding conventions for the Python code comprising the standard library in the main Python distribution. Please see the companion informational PEP describing style guidelines for the C code in the C implementation of Python.
+categories: Python
+tags:
+  - Python
+  - 博客
+---
+
+
+
 # PEP 8 -- Style Guide for Python Code
 
 | PEP:          | 8                                                            |
